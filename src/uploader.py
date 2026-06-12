@@ -22,7 +22,7 @@ def _get_or_create_vector_store(client: OpenAI, vector_store_id: str) -> str:
     if vector_store_id:
         # Verify it exists
         try:
-            client.beta.vector_stores.retrieve(vector_store_id=vector_store_id)
+            client.vector_stores.retrieve(vector_store_id=vector_store_id)
             return vector_store_id
         except Exception as exc:
             log.warning("Vector store %s not found (%s); creating one.", vector_store_id, exc)
@@ -46,7 +46,7 @@ def attach_file_to_vector_store(
 ) -> bool:
     """Attach an uploaded file to a Vector Store, waiting for completion."""
     try:
-        vf = client.beta.vector_stores.files.create(
+        vf = client.vector_stores.files.create(
             vector_store_id=vector_store_id, file_id=file_id
         )
         # Poll until processing completes
@@ -56,12 +56,12 @@ def attach_file_to_vector_store(
                 log.warning("Timed out waiting for file %s to attach", file_id)
                 return False
             time.sleep(POLL_INTERVAL_S)
-            vf = client.beta.vector_stores.files.retrieve(
+            vf = client.vector_stores.files.retrieve(
                 vector_store_id=vector_store_id, file_id=file_id
             )
 
         if vf.status == "completed":
-            log.info("File %s attached and processed (%d bytes)", file_id, vf.usage)
+            log.info("File %s attached and processed (%d bytes)", file_id, vf.usage_bytes)
             return True
         else:
             log.error("File %s failed with status '%s'", file_id, vf.status)
@@ -74,7 +74,7 @@ def attach_file_to_vector_store(
 def _log_vector_store_summary(client: OpenAI, vector_store_id: str) -> None:
     """Log the number of files and chunks in the vector store after sync."""
     try:
-        vs = client.beta.vector_stores.retrieve(vector_store_id=vector_store_id)
+        vs = client.vector_stores.retrieve(vector_store_id=vector_store_id)
         fc = vs.file_counts
         log.info(
             "Vector Store summary — files: %d (completed: %d, in_progress: %d, failed: %d), "

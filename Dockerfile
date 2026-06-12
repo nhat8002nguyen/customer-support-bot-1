@@ -26,8 +26,10 @@ COPY --from=builder /usr/local/bin /usr/local/bin
 # Copy application source
 COPY main.py .
 COPY src/ src/
+COPY scripts/ scripts/
 
 # Create data directory at runtime
 RUN mkdir -p data/articles
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["python"]
+CMD ["main.py"]

@@ -29,6 +29,9 @@ class Config:
     state_file_path: str = field(
         default_factory=lambda: os.environ.get("STATE_FILE_PATH", "state.json")
     )
+    max_pages: int = field(
+        default_factory=lambda: int(os.environ.get("MAX_PAGES", "0"))
+    )
 
     def validate(self) -> None:
         missing: list[str] = []

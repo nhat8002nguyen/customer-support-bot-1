@@ -61,9 +61,9 @@ def test_sync_upload_success(mock_openai, tmp_path):
     # Mock vector store file creation + polling
     mock_vf = MagicMock()
     mock_vf.status = "completed"
-    mock_vf.usage = 42
-    mock_client.beta.vector_stores.files.create.return_value = mock_vf
-    mock_client.beta.vector_stores.files.retrieve.return_value = mock_vf
+    mock_vf.usage_bytes = 42
+    mock_client.vector_stores.files.create.return_value = mock_vf
+    mock_client.vector_stores.files.retrieve.return_value = mock_vf
 
     # Mock vector store retrieve for summary
     mock_vs = MagicMock()
@@ -72,7 +72,7 @@ def test_sync_upload_success(mock_openai, tmp_path):
     mock_vs.file_counts.in_progress = 0
     mock_vs.file_counts.failed = 0
     mock_vs.usage_bytes = 42
-    mock_client.beta.vector_stores.retrieve.return_value = mock_vs
+    mock_client.vector_stores.retrieve.return_value = mock_vs
 
     mock_openai.return_value = mock_client
 
@@ -95,4 +95,4 @@ def test_sync_upload_success(mock_openai, tmp_path):
 
     # Verify the upload chain was called
     mock_client.files.create.assert_called_once()
-    mock_client.beta.vector_stores.files.create.assert_called_once()
+    mock_client.vector_stores.files.create.assert_called_once()

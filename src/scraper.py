@@ -102,7 +102,7 @@ def _html_to_markdown(html: str) -> str:
     return markdown.strip() + "\n"
 
 
-def fetch_all_articles(base_url: str) -> list[dict]:
+def fetch_all_articles(base_url: str, max_pages: int = 0) -> list[dict]:
     """Fetch all non-draft articles from Zendesk Help Center (paginated)."""
     articles: list[dict] = []
     url = urljoin(base_url.rstrip("/") + "/", API_PATH.lstrip("/"))
@@ -113,6 +113,8 @@ def fetch_all_articles(base_url: str) -> list[dict]:
 
     while url:
         page += 1
+        if max_pages > 0 and page > max_pages:
+            break
         log.info("Fetching article page %d ...", page)
         try:
             resp = session.get(url, timeout=30)
@@ -142,7 +144,7 @@ def run_scraper(cfg) -> list[Article]:
     """
     os.makedirs(cfg.data_dir, exist_ok=True)
 
-    raw_articles = fetch_all_articles(cfg.zendesk_base_url)
+    raw_articles = fetch_all_articles(cfg.zendesk_base_url, max_pages=cfg.max_pages)
     parsed: list[Article] = []
 
     for raw in raw_articles:
