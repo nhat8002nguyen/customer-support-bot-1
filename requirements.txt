@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+markdownify
+openai
+python-dotenv
+pytest
+pytest-mock
