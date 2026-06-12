@@ -5,9 +5,5 @@ venv/
 .venv/
 .git/
 .gitignore
-*.md
-!README.md
-docs/
-.todo.md
 state.json
 .DS_Store
