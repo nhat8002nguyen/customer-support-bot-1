@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any
 
 
 @dataclass
@@ -14,6 +13,7 @@ class Article:
     title: str
     slug: str
     body_html: str
+    md_content: str
     updated_at: str
     html_url: str
 

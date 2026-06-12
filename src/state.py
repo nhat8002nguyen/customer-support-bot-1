@@ -29,7 +29,7 @@ def save_state(path: str, articles: list[Article]) -> None:
     state = {
         a.slug: ArticleState(
             slug=a.slug,
-            sha256=compute_sha256(a.body_html),
+            sha256=compute_sha256(a.md_content),
             last_modified=a.updated_at,
         )
         for a in articles
@@ -44,7 +44,7 @@ def detect_deltas(
 ) -> DeltaResult:
     result = DeltaResult()
     for a in articles:
-        h = compute_sha256(a.body_html)
+        h = compute_sha256(a.md_content)
         existing = prev_state.get(a.slug)
         if existing is None:
             result.added.append(a)
