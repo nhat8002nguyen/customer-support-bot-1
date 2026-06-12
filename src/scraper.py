@@ -86,7 +86,19 @@ def _html_to_markdown(html: str) -> str:
     markdown = md(cleaned, **options)
 
     # Collapse excessive blank lines (max 2)
-    markdown = re.sub(r"\n{3,}", "\n\n", markdown)
+    # Collapse excessive blank lines (max 2)
+    lines = markdown.split("\n")
+    cleaned: list[str] = []
+    blank_count = 0
+    for line in lines:
+        if line.strip() == "":
+            blank_count += 1
+            if blank_count <= 2:
+                cleaned.append("")
+        else:
+            blank_count = 0
+            cleaned.append(line.rstrip())
+    markdown = "\n".join(cleaned)
     return markdown.strip() + "\n"
 
 
