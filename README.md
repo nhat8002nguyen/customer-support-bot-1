@@ -63,7 +63,14 @@ The container runs once and exits 0 on success.
 5. Set **Schedule** to daily (e.g., `0 6 * * *`).
 6. Deploy and monitor logs at your DO App Platform dashboard.
 
-> **Job logs:** _[link to DO job logs — add after deployment]_
+### Deployment Proof
+
+References from a successful scheduled run on App Platform (`sea-turtle-app`, cron `0 */4 * * *`):
+
+- [Job invocation — SUCCESS status](images/DO-job-status-1.png)
+- [Runtime logs — scrape → upload → sync complete](images/DO-job-status-2.png)
+- [Vector Store — uploaded articles (OpenAI dashboard)](images/OpenAI-vector-store.png)
+- [Full job log export](logs/DO-job-log.log)
 
 ## OpenAI Assistant Setup
 
@@ -79,9 +86,9 @@ The container runs once and exits 0 on success.
 3. Attach the Vector Store (the one configured via `OPENAI_VECTOR_STORE_ID`).
 4. Test with: **"How do I add a YouTube video?"**
 
-### Screenshot
+### Proof
 
-_![Playground Answer](docs/screenshot-playground.png)_
+- [Playground answer — "How do I add a YouTube video?"](images/OpenAI-playground-ans.png)
 
 ## Project Structure
 

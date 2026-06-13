@@ -1,0 +1,626 @@
+Jun 13 08:00:16  2026-06-13T08:00:16  INFO  scraper  Fetching article page 1 ...
+Jun 13 08:00:17  2026-06-13T08:00:17  INFO  scraper  Fetching article page 2 ...
+Jun 13 08:00:18  2026-06-13T08:00:18  INFO  scraper  Fetched 60 non-draft articles across 3 pages
+Jun 13 08:00:19  2026-06-13T08:00:19  INFO  scraper  Scraped 60 articles → data/articles/
+Jun 13 08:00:19  2026-06-13T08:00:19  INFO  main  Scraped 60 articles
+Jun 13 08:00:19  2026-06-13T08:00:19  INFO  main  Delta — added: 60, updated: 0, skipped: 0
+Jun 13 08:00:23  2026-06-13T08:00:23  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83 "HTTP/1.1 200 OK"
+Jun 13 08:00:25  2026-06-13T08:00:25  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:00:25  2026-06-13T08:00:25  INFO  uploader  Uploaded OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App.md → file_id=file-Y8y8NbRUXcACCZsHevyS62
+Jun 13 08:00:26  2026-06-13T08:00:26  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:00:28  2026-06-13T08:00:28  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Y8y8NbRUXcACCZsHevyS62 "HTTP/1.1 200 OK"
+Jun 13 08:00:29  2026-06-13T08:00:29  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Y8y8NbRUXcACCZsHevyS62 "HTTP/1.1 200 OK"
+Jun 13 08:00:31  2026-06-13T08:00:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Y8y8NbRUXcACCZsHevyS62 "HTTP/1.1 200 OK"
+Jun 13 08:00:32  2026-06-13T08:00:32  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Y8y8NbRUXcACCZsHevyS62 "HTTP/1.1 200 OK"
+Jun 13 08:00:34  2026-06-13T08:00:34  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Y8y8NbRUXcACCZsHevyS62 "HTTP/1.1 200 OK"
+Jun 13 08:00:34  2026-06-13T08:00:34  INFO  uploader  File file-Y8y8NbRUXcACCZsHevyS62 attached and processed (17308 bytes)
+Jun 13 08:00:34  2026-06-13T08:00:34  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:00:34  2026-06-13T08:00:34  INFO  uploader  Uploaded Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage.md → file_id=file-8YaADVuyGk2mZ3edei2Q7r
+Jun 13 08:00:35  2026-06-13T08:00:35  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:00:37  2026-06-13T08:00:37  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8YaADVuyGk2mZ3edei2Q7r "HTTP/1.1 200 OK"
+Jun 13 08:00:38  2026-06-13T08:00:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8YaADVuyGk2mZ3edei2Q7r "HTTP/1.1 200 OK"
+Jun 13 08:00:40  2026-06-13T08:00:40  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8YaADVuyGk2mZ3edei2Q7r "HTTP/1.1 200 OK"
+Jun 13 08:00:41  2026-06-13T08:00:41  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8YaADVuyGk2mZ3edei2Q7r "HTTP/1.1 200 OK"
+Jun 13 08:00:43  2026-06-13T08:00:43  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8YaADVuyGk2mZ3edei2Q7r "HTTP/1.1 200 OK"
+Jun 13 08:00:43  2026-06-13T08:00:43  INFO  uploader  File file-8YaADVuyGk2mZ3edei2Q7r attached and processed (20641 bytes)
+Jun 13 08:00:43  2026-06-13T08:00:43  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:00:43  2026-06-13T08:00:43  INFO  uploader  Uploaded ChromeOS-PWA-Instructions.md → file_id=file-JcBJ7eRkqXbRvi9kuvGdRq
+Jun 13 08:00:44  2026-06-13T08:00:44  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:00:46  2026-06-13T08:00:46  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:47  2026-06-13T08:00:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:49  2026-06-13T08:00:49  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:50  2026-06-13T08:00:50  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:52  2026-06-13T08:00:52  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:53  2026-06-13T08:00:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:55  2026-06-13T08:00:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:56  2026-06-13T08:00:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:58  2026-06-13T08:00:58  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:00:59  2026-06-13T08:00:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:00  2026-06-13T08:01:00  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:02  2026-06-13T08:01:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:03  2026-06-13T08:01:03  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:05  2026-06-13T08:01:05  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:06  2026-06-13T08:01:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:08  2026-06-13T08:01:08  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:09  2026-06-13T08:01:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:11  2026-06-13T08:01:11  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:12  2026-06-13T08:01:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:14  2026-06-13T08:01:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:15  2026-06-13T08:01:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:17  2026-06-13T08:01:17  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:18  2026-06-13T08:01:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:19  2026-06-13T08:01:19  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:21  2026-06-13T08:01:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:22  2026-06-13T08:01:22  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:24  2026-06-13T08:01:24  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:25  2026-06-13T08:01:25  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:27  2026-06-13T08:01:27  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:28  2026-06-13T08:01:28  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:30  2026-06-13T08:01:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:31  2026-06-13T08:01:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:33  2026-06-13T08:01:33  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:34  2026-06-13T08:01:34  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:36  2026-06-13T08:01:36  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:37  2026-06-13T08:01:37  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:39  2026-06-13T08:01:39  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:40  2026-06-13T08:01:40  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:42  2026-06-13T08:01:42  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:43  2026-06-13T08:01:43  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:44  2026-06-13T08:01:44  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JcBJ7eRkqXbRvi9kuvGdRq "HTTP/1.1 200 OK"
+Jun 13 08:01:44  2026-06-13T08:01:44  WARNING  uploader  Timed out waiting for file file-JcBJ7eRkqXbRvi9kuvGdRq to attach
+Jun 13 08:01:45  2026-06-13T08:01:45  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:01:45  2026-06-13T08:01:45  INFO  uploader  Uploaded How-to-Use-the-Google-Ads-Dashboard-App.md → file_id=file-2gFtqpeSMj3JE1kk7RMphz
+Jun 13 08:01:46  2026-06-13T08:01:46  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:01:47  2026-06-13T08:01:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2gFtqpeSMj3JE1kk7RMphz "HTTP/1.1 200 OK"
+Jun 13 08:01:49  2026-06-13T08:01:49  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2gFtqpeSMj3JE1kk7RMphz "HTTP/1.1 200 OK"
+Jun 13 08:01:50  2026-06-13T08:01:50  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2gFtqpeSMj3JE1kk7RMphz "HTTP/1.1 200 OK"
+Jun 13 08:01:52  2026-06-13T08:01:52  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2gFtqpeSMj3JE1kk7RMphz "HTTP/1.1 200 OK"
+Jun 13 08:01:52  2026-06-13T08:01:52  INFO  uploader  File file-2gFtqpeSMj3JE1kk7RMphz attached and processed (12126 bytes)
+Jun 13 08:01:52  2026-06-13T08:01:52  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:01:52  2026-06-13T08:01:52  INFO  uploader  Uploaded How-to-Use-the-Google-Search-Console-App.md → file_id=file-HZwBzxzQAna6ZpmJAocybP
+Jun 13 08:01:53  2026-06-13T08:01:53  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:01:55  2026-06-13T08:01:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HZwBzxzQAna6ZpmJAocybP "HTTP/1.1 200 OK"
+Jun 13 08:01:56  2026-06-13T08:01:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HZwBzxzQAna6ZpmJAocybP "HTTP/1.1 200 OK"
+Jun 13 08:01:58  2026-06-13T08:01:58  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HZwBzxzQAna6ZpmJAocybP "HTTP/1.1 200 OK"
+Jun 13 08:01:59  2026-06-13T08:01:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HZwBzxzQAna6ZpmJAocybP "HTTP/1.1 200 OK"
+Jun 13 08:01:59  2026-06-13T08:01:59  INFO  uploader  File file-HZwBzxzQAna6ZpmJAocybP attached and processed (12193 bytes)
+Jun 13 08:02:00  2026-06-13T08:02:00  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:02:00  2026-06-13T08:02:00  INFO  uploader  Uploaded How-to-Use-the-YouTube-Dashboard-App.md → file_id=file-1mBGezoHCnV9XoadZJjDya
+Jun 13 08:02:01  2026-06-13T08:02:01  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:02:02  2026-06-13T08:02:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:04  2026-06-13T08:02:04  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:05  2026-06-13T08:02:05  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:07  2026-06-13T08:02:07  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:08  2026-06-13T08:02:08  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:09  2026-06-13T08:02:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:11  2026-06-13T08:02:11  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:12  2026-06-13T08:02:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:14  2026-06-13T08:02:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:15  2026-06-13T08:02:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:17  2026-06-13T08:02:17  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:18  2026-06-13T08:02:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1mBGezoHCnV9XoadZJjDya "HTTP/1.1 200 OK"
+Jun 13 08:02:18  2026-06-13T08:02:18  INFO  uploader  File file-1mBGezoHCnV9XoadZJjDya attached and processed (11853 bytes)
+Jun 13 08:02:19  2026-06-13T08:02:19  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:02:19  2026-06-13T08:02:19  INFO  uploader  Uploaded Operational-Schedule-Troubleshooting.md → file_id=file-7HVzeLJZaMX18wjATSKNuQ
+Jun 13 08:02:20  2026-06-13T08:02:20  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:02:21  2026-06-13T08:02:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7HVzeLJZaMX18wjATSKNuQ "HTTP/1.1 200 OK"
+Jun 13 08:02:23  2026-06-13T08:02:23  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7HVzeLJZaMX18wjATSKNuQ "HTTP/1.1 200 OK"
+Jun 13 08:02:24  2026-06-13T08:02:24  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7HVzeLJZaMX18wjATSKNuQ "HTTP/1.1 200 OK"
+Jun 13 08:02:26  2026-06-13T08:02:26  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7HVzeLJZaMX18wjATSKNuQ "HTTP/1.1 200 OK"
+Jun 13 08:02:26  2026-06-13T08:02:26  INFO  uploader  File file-7HVzeLJZaMX18wjATSKNuQ attached and processed (27517 bytes)
+Jun 13 08:02:26  2026-06-13T08:02:26  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:02:26  2026-06-13T08:02:26  INFO  uploader  Uploaded How-to-Use-the-OptiDev-App.md → file_id=file-QnbDEkT1StY4ZzZmp8yYQE
+Jun 13 08:02:27  2026-06-13T08:02:27  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:02:28  2026-06-13T08:02:28  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QnbDEkT1StY4ZzZmp8yYQE "HTTP/1.1 200 OK"
+Jun 13 08:02:30  2026-06-13T08:02:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QnbDEkT1StY4ZzZmp8yYQE "HTTP/1.1 200 OK"
+Jun 13 08:02:31  2026-06-13T08:02:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QnbDEkT1StY4ZzZmp8yYQE "HTTP/1.1 200 OK"
+Jun 13 08:02:33  2026-06-13T08:02:33  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QnbDEkT1StY4ZzZmp8yYQE "HTTP/1.1 200 OK"
+Jun 13 08:02:33  2026-06-13T08:02:33  INFO  uploader  File file-QnbDEkT1StY4ZzZmp8yYQE attached and processed (10818 bytes)
+Jun 13 08:02:33  2026-06-13T08:02:33  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:02:33  2026-06-13T08:02:33  INFO  uploader  Uploaded How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions.md → file_id=file-LWmdeFKPa9kHKemfyzi3y2
+Jun 13 08:02:35  2026-06-13T08:02:35  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:02:36  2026-06-13T08:02:36  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LWmdeFKPa9kHKemfyzi3y2 "HTTP/1.1 200 OK"
+Jun 13 08:02:37  2026-06-13T08:02:37  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LWmdeFKPa9kHKemfyzi3y2 "HTTP/1.1 200 OK"
+Jun 13 08:02:39  2026-06-13T08:02:39  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LWmdeFKPa9kHKemfyzi3y2 "HTTP/1.1 200 OK"
+Jun 13 08:02:40  2026-06-13T08:02:40  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LWmdeFKPa9kHKemfyzi3y2 "HTTP/1.1 200 OK"
+Jun 13 08:02:40  2026-06-13T08:02:40  INFO  uploader  File file-LWmdeFKPa9kHKemfyzi3y2 attached and processed (7533 bytes)
+Jun 13 08:02:41  2026-06-13T08:02:41  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:02:41  2026-06-13T08:02:41  INFO  uploader  Uploaded Using-an-Enterprise-Network-802-1x-with-OptiSigns.md → file_id=file-Raw3U5CbHbsKHheBq8v7FB
+Jun 13 08:02:42  2026-06-13T08:02:42  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:02:44  2026-06-13T08:02:44  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Raw3U5CbHbsKHheBq8v7FB "HTTP/1.1 200 OK"
+Jun 13 08:02:45  2026-06-13T08:02:45  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Raw3U5CbHbsKHheBq8v7FB "HTTP/1.1 200 OK"
+Jun 13 08:02:46  2026-06-13T08:02:46  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Raw3U5CbHbsKHheBq8v7FB "HTTP/1.1 200 OK"
+Jun 13 08:02:48  2026-06-13T08:02:48  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Raw3U5CbHbsKHheBq8v7FB "HTTP/1.1 200 OK"
+Jun 13 08:02:48  2026-06-13T08:02:48  INFO  uploader  File file-Raw3U5CbHbsKHheBq8v7FB attached and processed (8242 bytes)
+Jun 13 08:02:48  2026-06-13T08:02:48  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:02:48  2026-06-13T08:02:48  INFO  uploader  Uploaded User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations.md → file_id=file-JBX8Zrt2YJdzYXosPreTrt
+Jun 13 08:02:49  2026-06-13T08:02:49  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:02:51  2026-06-13T08:02:51  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JBX8Zrt2YJdzYXosPreTrt "HTTP/1.1 200 OK"
+Jun 13 08:02:52  2026-06-13T08:02:52  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JBX8Zrt2YJdzYXosPreTrt "HTTP/1.1 200 OK"
+Jun 13 08:02:54  2026-06-13T08:02:54  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JBX8Zrt2YJdzYXosPreTrt "HTTP/1.1 200 OK"
+Jun 13 08:02:55  2026-06-13T08:02:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-JBX8Zrt2YJdzYXosPreTrt "HTTP/1.1 200 OK"
+Jun 13 08:02:55  2026-06-13T08:02:55  INFO  uploader  File file-JBX8Zrt2YJdzYXosPreTrt attached and processed (33622 bytes)
+Jun 13 08:02:56  2026-06-13T08:02:56  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:02:56  2026-06-13T08:02:56  INFO  uploader  Uploaded Getting-Started-with-Designer.md → file_id=file-HkMx5uPFQ1bYj98LJcRdQf
+Jun 13 08:02:57  2026-06-13T08:02:57  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:02:58  2026-06-13T08:02:58  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HkMx5uPFQ1bYj98LJcRdQf "HTTP/1.1 200 OK"
+Jun 13 08:03:00  2026-06-13T08:03:00  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HkMx5uPFQ1bYj98LJcRdQf "HTTP/1.1 200 OK"
+Jun 13 08:03:01  2026-06-13T08:03:01  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HkMx5uPFQ1bYj98LJcRdQf "HTTP/1.1 200 OK"
+Jun 13 08:03:03  2026-06-13T08:03:03  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HkMx5uPFQ1bYj98LJcRdQf "HTTP/1.1 200 OK"
+Jun 13 08:03:04  2026-06-13T08:03:04  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-HkMx5uPFQ1bYj98LJcRdQf "HTTP/1.1 200 OK"
+Jun 13 08:03:04  2026-06-13T08:03:04  INFO  uploader  File file-HkMx5uPFQ1bYj98LJcRdQf attached and processed (33029 bytes)
+Jun 13 08:03:05  2026-06-13T08:03:05  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:03:05  2026-06-13T08:03:05  INFO  uploader  Uploaded Designer-2-0-New-Features.md → file_id=file-M51kYdt8kmAAtcd4nDLEFR
+Jun 13 08:03:06  2026-06-13T08:03:06  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:03:07  2026-06-13T08:03:07  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-M51kYdt8kmAAtcd4nDLEFR "HTTP/1.1 200 OK"
+Jun 13 08:03:09  2026-06-13T08:03:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-M51kYdt8kmAAtcd4nDLEFR "HTTP/1.1 200 OK"
+Jun 13 08:03:10  2026-06-13T08:03:10  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-M51kYdt8kmAAtcd4nDLEFR "HTTP/1.1 200 OK"
+Jun 13 08:03:11  2026-06-13T08:03:11  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-M51kYdt8kmAAtcd4nDLEFR "HTTP/1.1 200 OK"
+Jun 13 08:03:13  2026-06-13T08:03:13  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-M51kYdt8kmAAtcd4nDLEFR "HTTP/1.1 200 OK"
+Jun 13 08:03:13  2026-06-13T08:03:13  INFO  uploader  File file-M51kYdt8kmAAtcd4nDLEFR attached and processed (24686 bytes)
+Jun 13 08:03:14  2026-06-13T08:03:14  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:03:14  2026-06-13T08:03:14  INFO  uploader  Uploaded OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide.md → file_id=file-W1GjRZz1uG638Q5fDUr6WL
+Jun 13 08:03:15  2026-06-13T08:03:15  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:03:16  2026-06-13T08:03:16  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-W1GjRZz1uG638Q5fDUr6WL "HTTP/1.1 200 OK"
+Jun 13 08:03:18  2026-06-13T08:03:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-W1GjRZz1uG638Q5fDUr6WL "HTTP/1.1 200 OK"
+Jun 13 08:03:19  2026-06-13T08:03:19  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-W1GjRZz1uG638Q5fDUr6WL "HTTP/1.1 200 OK"
+Jun 13 08:03:21  2026-06-13T08:03:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-W1GjRZz1uG638Q5fDUr6WL "HTTP/1.1 200 OK"
+Jun 13 08:03:22  2026-06-13T08:03:22  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-W1GjRZz1uG638Q5fDUr6WL "HTTP/1.1 200 OK"
+Jun 13 08:03:23  2026-06-13T08:03:23  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-W1GjRZz1uG638Q5fDUr6WL "HTTP/1.1 200 OK"
+Jun 13 08:03:23  2026-06-13T08:03:23  INFO  uploader  File file-W1GjRZz1uG638Q5fDUr6WL attached and processed (25815 bytes)
+Jun 13 08:03:24  2026-06-13T08:03:24  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:03:24  2026-06-13T08:03:24  INFO  uploader  Uploaded How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound.md → file_id=file-XHvyWN1gFXAYLnMUNWxCDn
+Jun 13 08:03:25  2026-06-13T08:03:25  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:03:26  2026-06-13T08:03:26  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:28  2026-06-13T08:03:28  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:29  2026-06-13T08:03:29  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:31  2026-06-13T08:03:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:32  2026-06-13T08:03:32  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:34  2026-06-13T08:03:34  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:35  2026-06-13T08:03:35  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:37  2026-06-13T08:03:37  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:38  2026-06-13T08:03:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:39  2026-06-13T08:03:39  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XHvyWN1gFXAYLnMUNWxCDn "HTTP/1.1 200 OK"
+Jun 13 08:03:39  2026-06-13T08:03:39  INFO  uploader  File file-XHvyWN1gFXAYLnMUNWxCDn attached and processed (8332 bytes)
+Jun 13 08:03:40  2026-06-13T08:03:40  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:03:40  2026-06-13T08:03:40  INFO  uploader  Uploaded Disk-Encryption.md → file_id=file-XrS6FEfnK3nHv5w1oZitJG
+Jun 13 08:03:41  2026-06-13T08:03:41  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:03:42  2026-06-13T08:03:42  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XrS6FEfnK3nHv5w1oZitJG "HTTP/1.1 200 OK"
+Jun 13 08:03:44  2026-06-13T08:03:44  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XrS6FEfnK3nHv5w1oZitJG "HTTP/1.1 200 OK"
+Jun 13 08:03:45  2026-06-13T08:03:45  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XrS6FEfnK3nHv5w1oZitJG "HTTP/1.1 200 OK"
+Jun 13 08:03:47  2026-06-13T08:03:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XrS6FEfnK3nHv5w1oZitJG "HTTP/1.1 200 OK"
+Jun 13 08:03:48  2026-06-13T08:03:48  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-XrS6FEfnK3nHv5w1oZitJG "HTTP/1.1 200 OK"
+Jun 13 08:03:48  2026-06-13T08:03:48  INFO  uploader  File file-XrS6FEfnK3nHv5w1oZitJG attached and processed (4016 bytes)
+Jun 13 08:03:49  2026-06-13T08:03:49  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:03:49  2026-06-13T08:03:49  INFO  uploader  Uploaded OptiStick-Troubleshooting-Guide.md → file_id=file-EJa61oGL5kawWC2LFvqSej
+Jun 13 08:03:50  2026-06-13T08:03:50  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:03:51  2026-06-13T08:03:51  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:03:53  2026-06-13T08:03:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:03:54  2026-06-13T08:03:54  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:03:56  2026-06-13T08:03:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:03:57  2026-06-13T08:03:57  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:03:59  2026-06-13T08:03:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:00  2026-06-13T08:04:00  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:02  2026-06-13T08:04:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:03  2026-06-13T08:04:03  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:05  2026-06-13T08:04:05  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:06  2026-06-13T08:04:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:07  2026-06-13T08:04:07  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:09  2026-06-13T08:04:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:10  2026-06-13T08:04:10  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:12  2026-06-13T08:04:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-EJa61oGL5kawWC2LFvqSej "HTTP/1.1 200 OK"
+Jun 13 08:04:12  2026-06-13T08:04:12  INFO  uploader  File file-EJa61oGL5kawWC2LFvqSej attached and processed (36597 bytes)
+Jun 13 08:04:12  2026-06-13T08:04:12  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:04:12  2026-06-13T08:04:12  INFO  uploader  Uploaded Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick.md → file_id=file-AAkghGWJS2EwCcMmK38VRz
+Jun 13 08:04:13  2026-06-13T08:04:13  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:04:15  2026-06-13T08:04:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAkghGWJS2EwCcMmK38VRz "HTTP/1.1 200 OK"
+Jun 13 08:04:16  2026-06-13T08:04:16  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAkghGWJS2EwCcMmK38VRz "HTTP/1.1 200 OK"
+Jun 13 08:04:18  2026-06-13T08:04:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAkghGWJS2EwCcMmK38VRz "HTTP/1.1 200 OK"
+Jun 13 08:04:19  2026-06-13T08:04:19  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAkghGWJS2EwCcMmK38VRz "HTTP/1.1 200 OK"
+Jun 13 08:04:20  2026-06-13T08:04:20  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAkghGWJS2EwCcMmK38VRz "HTTP/1.1 200 OK"
+Jun 13 08:04:20  2026-06-13T08:04:20  INFO  uploader  File file-AAkghGWJS2EwCcMmK38VRz attached and processed (2557 bytes)
+Jun 13 08:04:21  2026-06-13T08:04:21  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:04:21  2026-06-13T08:04:21  INFO  uploader  Uploaded How-to-Use-the-Tableau-App.md → file_id=file-4avvchMYBynrmE7ZmbsKFc
+Jun 13 08:04:22  2026-06-13T08:04:22  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:04:24  2026-06-13T08:04:24  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4avvchMYBynrmE7ZmbsKFc "HTTP/1.1 200 OK"
+Jun 13 08:04:25  2026-06-13T08:04:25  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4avvchMYBynrmE7ZmbsKFc "HTTP/1.1 200 OK"
+Jun 13 08:04:27  2026-06-13T08:04:27  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4avvchMYBynrmE7ZmbsKFc "HTTP/1.1 200 OK"
+Jun 13 08:04:28  2026-06-13T08:04:28  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4avvchMYBynrmE7ZmbsKFc "HTTP/1.1 200 OK"
+Jun 13 08:04:28  2026-06-13T08:04:28  INFO  uploader  File file-4avvchMYBynrmE7ZmbsKFc attached and processed (20208 bytes)
+Jun 13 08:04:29  2026-06-13T08:04:29  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:04:29  2026-06-13T08:04:29  INFO  uploader  Uploaded Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration.md → file_id=file-VTEunXyViRSwi7wozQcZKe
+Jun 13 08:04:30  2026-06-13T08:04:30  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:04:31  2026-06-13T08:04:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VTEunXyViRSwi7wozQcZKe "HTTP/1.1 200 OK"
+Jun 13 08:04:33  2026-06-13T08:04:33  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VTEunXyViRSwi7wozQcZKe "HTTP/1.1 200 OK"
+Jun 13 08:04:34  2026-06-13T08:04:34  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VTEunXyViRSwi7wozQcZKe "HTTP/1.1 200 OK"
+Jun 13 08:04:35  2026-06-13T08:04:35  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VTEunXyViRSwi7wozQcZKe "HTTP/1.1 200 OK"
+Jun 13 08:04:35  2026-06-13T08:04:35  INFO  uploader  File file-VTEunXyViRSwi7wozQcZKe attached and processed (3267 bytes)
+Jun 13 08:04:36  2026-06-13T08:04:36  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:04:36  2026-06-13T08:04:36  INFO  uploader  Uploaded Tagging-in-OptiSigns.md → file_id=file-MXqZtBGUN4Wx9oaJrcM1qS
+Jun 13 08:04:37  2026-06-13T08:04:37  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:04:38  2026-06-13T08:04:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MXqZtBGUN4Wx9oaJrcM1qS "HTTP/1.1 200 OK"
+Jun 13 08:04:40  2026-06-13T08:04:40  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MXqZtBGUN4Wx9oaJrcM1qS "HTTP/1.1 200 OK"
+Jun 13 08:04:41  2026-06-13T08:04:41  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MXqZtBGUN4Wx9oaJrcM1qS "HTTP/1.1 200 OK"
+Jun 13 08:04:43  2026-06-13T08:04:43  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MXqZtBGUN4Wx9oaJrcM1qS "HTTP/1.1 200 OK"
+Jun 13 08:04:43  2026-06-13T08:04:43  INFO  uploader  File file-MXqZtBGUN4Wx9oaJrcM1qS attached and processed (20958 bytes)
+Jun 13 08:04:43  2026-06-13T08:04:43  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:04:43  2026-06-13T08:04:43  INFO  uploader  Uploaded Getting-Started-with-an-OptiSigns-Free-Trial.md → file_id=file-7jCmUXgvRq3rt7HvmXivhZ
+Jun 13 08:04:44  2026-06-13T08:04:44  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:04:46  2026-06-13T08:04:46  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7jCmUXgvRq3rt7HvmXivhZ "HTTP/1.1 200 OK"
+Jun 13 08:04:47  2026-06-13T08:04:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7jCmUXgvRq3rt7HvmXivhZ "HTTP/1.1 200 OK"
+Jun 13 08:04:49  2026-06-13T08:04:49  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7jCmUXgvRq3rt7HvmXivhZ "HTTP/1.1 200 OK"
+Jun 13 08:04:50  2026-06-13T08:04:50  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-7jCmUXgvRq3rt7HvmXivhZ "HTTP/1.1 200 OK"
+Jun 13 08:04:50  2026-06-13T08:04:50  INFO  uploader  File file-7jCmUXgvRq3rt7HvmXivhZ attached and processed (10657 bytes)
+Jun 13 08:04:50  2026-06-13T08:04:50  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:04:50  2026-06-13T08:04:50  INFO  uploader  Uploaded How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms.md → file_id=file-6y1S6DyecyZAovoC1fcTNc
+Jun 13 08:04:51  2026-06-13T08:04:51  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:04:53  2026-06-13T08:04:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-6y1S6DyecyZAovoC1fcTNc "HTTP/1.1 200 OK"
+Jun 13 08:04:54  2026-06-13T08:04:54  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-6y1S6DyecyZAovoC1fcTNc "HTTP/1.1 200 OK"
+Jun 13 08:04:56  2026-06-13T08:04:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-6y1S6DyecyZAovoC1fcTNc "HTTP/1.1 200 OK"
+Jun 13 08:04:57  2026-06-13T08:04:57  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-6y1S6DyecyZAovoC1fcTNc "HTTP/1.1 200 OK"
+Jun 13 08:04:59  2026-06-13T08:04:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-6y1S6DyecyZAovoC1fcTNc "HTTP/1.1 200 OK"
+Jun 13 08:04:59  2026-06-13T08:04:59  INFO  uploader  File file-6y1S6DyecyZAovoC1fcTNc attached and processed (8758 bytes)
+Jun 13 08:04:59  2026-06-13T08:04:59  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:04:59  2026-06-13T08:04:59  INFO  uploader  Uploaded How-to-access-the-Troubleshooting-page-of-the-OptiSigns-Player.md → file_id=file-3am6q1Ki2jUkvY8nJsZDN8
+Jun 13 08:05:00  2026-06-13T08:05:00  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:05:02  2026-06-13T08:05:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3am6q1Ki2jUkvY8nJsZDN8 "HTTP/1.1 200 OK"
+Jun 13 08:05:03  2026-06-13T08:05:03  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3am6q1Ki2jUkvY8nJsZDN8 "HTTP/1.1 200 OK"
+Jun 13 08:05:05  2026-06-13T08:05:05  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3am6q1Ki2jUkvY8nJsZDN8 "HTTP/1.1 200 OK"
+Jun 13 08:05:06  2026-06-13T08:05:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3am6q1Ki2jUkvY8nJsZDN8 "HTTP/1.1 200 OK"
+Jun 13 08:05:06  2026-06-13T08:05:06  INFO  uploader  File file-3am6q1Ki2jUkvY8nJsZDN8 attached and processed (11537 bytes)
+Jun 13 08:05:07  2026-06-13T08:05:07  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:05:07  2026-06-13T08:05:07  INFO  uploader  Uploaded How-to-Using-SEPA-and-iDEAL-for-EUR-Currency-Subscription-Payments.md → file_id=file-AAyCLtYBrKEHnDnok3bAp8
+Jun 13 08:05:08  2026-06-13T08:05:08  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:05:09  2026-06-13T08:05:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAyCLtYBrKEHnDnok3bAp8 "HTTP/1.1 200 OK"
+Jun 13 08:05:11  2026-06-13T08:05:11  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAyCLtYBrKEHnDnok3bAp8 "HTTP/1.1 200 OK"
+Jun 13 08:05:12  2026-06-13T08:05:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAyCLtYBrKEHnDnok3bAp8 "HTTP/1.1 200 OK"
+Jun 13 08:05:14  2026-06-13T08:05:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAyCLtYBrKEHnDnok3bAp8 "HTTP/1.1 200 OK"
+Jun 13 08:05:15  2026-06-13T08:05:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-AAyCLtYBrKEHnDnok3bAp8 "HTTP/1.1 200 OK"
+Jun 13 08:05:15  2026-06-13T08:05:15  INFO  uploader  File file-AAyCLtYBrKEHnDnok3bAp8 attached and processed (3383 bytes)
+Jun 13 08:05:16  2026-06-13T08:05:16  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:05:16  2026-06-13T08:05:16  INFO  uploader  Uploaded How-to-Install-a-Root-Certificate-and-Display-an-Internal-Website-on-Screens.md → file_id=file-RvThdJed7WSYsKAqxQDejV
+Jun 13 08:05:17  2026-06-13T08:05:17  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:05:18  2026-06-13T08:05:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-RvThdJed7WSYsKAqxQDejV "HTTP/1.1 200 OK"
+Jun 13 08:05:20  2026-06-13T08:05:20  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-RvThdJed7WSYsKAqxQDejV "HTTP/1.1 200 OK"
+Jun 13 08:05:21  2026-06-13T08:05:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-RvThdJed7WSYsKAqxQDejV "HTTP/1.1 200 OK"
+Jun 13 08:05:23  2026-06-13T08:05:23  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-RvThdJed7WSYsKAqxQDejV "HTTP/1.1 200 OK"
+Jun 13 08:05:25  2026-06-13T08:05:25  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-RvThdJed7WSYsKAqxQDejV "HTTP/1.1 200 OK"
+Jun 13 08:05:25  2026-06-13T08:05:25  INFO  uploader  File file-RvThdJed7WSYsKAqxQDejV attached and processed (30013 bytes)
+Jun 13 08:05:26  2026-06-13T08:05:26  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:05:26  2026-06-13T08:05:26  INFO  uploader  Uploaded Accepted-Payment-Methods.md → file_id=file-1pLDBqZrg8p3zncNQTnn5N
+Jun 13 08:05:27  2026-06-13T08:05:27  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:05:29  2026-06-13T08:05:29  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1pLDBqZrg8p3zncNQTnn5N "HTTP/1.1 200 OK"
+Jun 13 08:05:31  2026-06-13T08:05:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1pLDBqZrg8p3zncNQTnn5N "HTTP/1.1 200 OK"
+Jun 13 08:05:32  2026-06-13T08:05:32  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-1pLDBqZrg8p3zncNQTnn5N "HTTP/1.1 200 OK"
+Jun 13 08:05:32  2026-06-13T08:05:32  INFO  uploader  File file-1pLDBqZrg8p3zncNQTnn5N attached and processed (3325 bytes)
+Jun 13 08:05:33  2026-06-13T08:05:33  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:05:33  2026-06-13T08:05:33  INFO  uploader  Uploaded What-Do-I-Get-With-an-OptiSigns-Free-Plan.md → file_id=file-VHoydWBhUc4v79DnGbfkXY
+Jun 13 08:05:35  2026-06-13T08:05:35  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:05:36  2026-06-13T08:05:36  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VHoydWBhUc4v79DnGbfkXY "HTTP/1.1 200 OK"
+Jun 13 08:05:38  2026-06-13T08:05:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VHoydWBhUc4v79DnGbfkXY "HTTP/1.1 200 OK"
+Jun 13 08:05:39  2026-06-13T08:05:39  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VHoydWBhUc4v79DnGbfkXY "HTTP/1.1 200 OK"
+Jun 13 08:05:41  2026-06-13T08:05:41  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VHoydWBhUc4v79DnGbfkXY "HTTP/1.1 200 OK"
+Jun 13 08:05:41  2026-06-13T08:05:41  INFO  uploader  File file-VHoydWBhUc4v79DnGbfkXY attached and processed (8142 bytes)
+Jun 13 08:05:42  2026-06-13T08:05:42  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:05:42  2026-06-13T08:05:42  INFO  uploader  Uploaded Making-a-Video-Wall-with-OptiSigns-Video-Wall-App.md → file_id=file-LjRy57jh6GaNPzZ8czXpVc
+Jun 13 08:05:44  2026-06-13T08:05:44  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:05:45  2026-06-13T08:05:45  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LjRy57jh6GaNPzZ8czXpVc "HTTP/1.1 200 OK"
+Jun 13 08:05:47  2026-06-13T08:05:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LjRy57jh6GaNPzZ8czXpVc "HTTP/1.1 200 OK"
+Jun 13 08:05:48  2026-06-13T08:05:48  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LjRy57jh6GaNPzZ8czXpVc "HTTP/1.1 200 OK"
+Jun 13 08:05:50  2026-06-13T08:05:50  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-LjRy57jh6GaNPzZ8czXpVc "HTTP/1.1 200 OK"
+Jun 13 08:05:50  2026-06-13T08:05:50  INFO  uploader  File file-LjRy57jh6GaNPzZ8czXpVc attached and processed (32994 bytes)
+Jun 13 08:05:51  2026-06-13T08:05:51  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:05:51  2026-06-13T08:05:51  INFO  uploader  Uploaded How-to-Set-Up-a-Power-BI-Service-Principal-for-Use-in-OptiSigns.md → file_id=file-Hb4EGULzHQyUCNXwS7yeZq
+Jun 13 08:05:52  2026-06-13T08:05:52  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:05:53  2026-06-13T08:05:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Hb4EGULzHQyUCNXwS7yeZq "HTTP/1.1 200 OK"
+Jun 13 08:05:55  2026-06-13T08:05:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Hb4EGULzHQyUCNXwS7yeZq "HTTP/1.1 200 OK"
+Jun 13 08:05:56  2026-06-13T08:05:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Hb4EGULzHQyUCNXwS7yeZq "HTTP/1.1 200 OK"
+Jun 13 08:05:58  2026-06-13T08:05:58  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Hb4EGULzHQyUCNXwS7yeZq "HTTP/1.1 200 OK"
+Jun 13 08:05:58  2026-06-13T08:05:58  INFO  uploader  File file-Hb4EGULzHQyUCNXwS7yeZq attached and processed (12102 bytes)
+Jun 13 08:05:59  2026-06-13T08:05:59  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:05:59  2026-06-13T08:05:59  INFO  uploader  Uploaded Display-Salesforce-Dashboards-with-MFA-using-Web-Scripting.md → file_id=file-MnLx8jaGc4c3xCigr23pzT
+Jun 13 08:06:00  2026-06-13T08:06:00  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:06:02  2026-06-13T08:06:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MnLx8jaGc4c3xCigr23pzT "HTTP/1.1 200 OK"
+Jun 13 08:06:04  2026-06-13T08:06:04  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MnLx8jaGc4c3xCigr23pzT "HTTP/1.1 200 OK"
+Jun 13 08:06:06  2026-06-13T08:06:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MnLx8jaGc4c3xCigr23pzT "HTTP/1.1 200 OK"
+Jun 13 08:06:08  2026-06-13T08:06:08  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MnLx8jaGc4c3xCigr23pzT "HTTP/1.1 200 OK"
+Jun 13 08:06:08  2026-06-13T08:06:08  INFO  uploader  File file-MnLx8jaGc4c3xCigr23pzT attached and processed (4094 bytes)
+Jun 13 08:06:08  2026-06-13T08:06:08  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:06:08  2026-06-13T08:06:08  INFO  uploader  Uploaded How-to-Order-a-Preconfigured-OptiSigns-Android-Player-Device.md → file_id=file-NPZBRQRLSK9pK4VpmcZs6c
+Jun 13 08:06:10  2026-06-13T08:06:10  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:06:12  2026-06-13T08:06:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-NPZBRQRLSK9pK4VpmcZs6c "HTTP/1.1 200 OK"
+Jun 13 08:06:14  2026-06-13T08:06:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-NPZBRQRLSK9pK4VpmcZs6c "HTTP/1.1 200 OK"
+Jun 13 08:06:15  2026-06-13T08:06:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-NPZBRQRLSK9pK4VpmcZs6c "HTTP/1.1 200 OK"
+Jun 13 08:06:15  2026-06-13T08:06:15  INFO  uploader  File file-NPZBRQRLSK9pK4VpmcZs6c attached and processed (3363 bytes)
+Jun 13 08:06:16  2026-06-13T08:06:16  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:06:16  2026-06-13T08:06:16  INFO  uploader  Uploaded Integrating-Point-of-Sale-POS-Systems-to-Build-Digital-Menu-Boards-with-OptiSync.md → file_id=file-5sJXjWtos5yKXZX8suibqV
+Jun 13 08:06:17  2026-06-13T08:06:17  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:06:19  2026-06-13T08:06:19  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:21  2026-06-13T08:06:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:23  2026-06-13T08:06:23  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:25  2026-06-13T08:06:25  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:27  2026-06-13T08:06:27  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:28  2026-06-13T08:06:28  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:30  2026-06-13T08:06:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:32  2026-06-13T08:06:32  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:34  2026-06-13T08:06:34  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:36  2026-06-13T08:06:36  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:38  2026-06-13T08:06:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5sJXjWtos5yKXZX8suibqV "HTTP/1.1 200 OK"
+Jun 13 08:06:38  2026-06-13T08:06:38  INFO  uploader  File file-5sJXjWtos5yKXZX8suibqV attached and processed (34082 bytes)
+Jun 13 08:06:39  2026-06-13T08:06:39  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:06:39  2026-06-13T08:06:39  INFO  uploader  Uploaded Configuring-Mass-Deployment-with-Jamf-Pro-MDM-on-Apple-Devices.md → file_id=file-D2nLTZkvtond1h99EoUfD5
+Jun 13 08:06:40  2026-06-13T08:06:40  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:06:42  2026-06-13T08:06:42  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-D2nLTZkvtond1h99EoUfD5 "HTTP/1.1 200 OK"
+Jun 13 08:06:44  2026-06-13T08:06:44  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-D2nLTZkvtond1h99EoUfD5 "HTTP/1.1 200 OK"
+Jun 13 08:06:46  2026-06-13T08:06:46  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-D2nLTZkvtond1h99EoUfD5 "HTTP/1.1 200 OK"
+Jun 13 08:06:47  2026-06-13T08:06:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-D2nLTZkvtond1h99EoUfD5 "HTTP/1.1 200 OK"
+Jun 13 08:06:47  2026-06-13T08:06:47  INFO  uploader  File file-D2nLTZkvtond1h99EoUfD5 attached and processed (6751 bytes)
+Jun 13 08:06:48  2026-06-13T08:06:48  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:06:48  2026-06-13T08:06:48  INFO  uploader  Uploaded Getting-Started-with-Touch-Screen-Kiosks.md → file_id=file-MGNGwdgenJDNNSnsyaVYin
+Jun 13 08:06:50  2026-06-13T08:06:50  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:06:52  2026-06-13T08:06:52  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MGNGwdgenJDNNSnsyaVYin "HTTP/1.1 200 OK"
+Jun 13 08:06:53  2026-06-13T08:06:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MGNGwdgenJDNNSnsyaVYin "HTTP/1.1 200 OK"
+Jun 13 08:06:55  2026-06-13T08:06:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MGNGwdgenJDNNSnsyaVYin "HTTP/1.1 200 OK"
+Jun 13 08:06:55  2026-06-13T08:06:55  INFO  uploader  File file-MGNGwdgenJDNNSnsyaVYin attached and processed (23838 bytes)
+Jun 13 08:06:56  2026-06-13T08:06:56  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:06:56  2026-06-13T08:06:56  INFO  uploader  Uploaded How-to-use-Toast-API-data-with-OptiSigns.md → file_id=file-14fC3Fm1rpfxLB9XEgFdf5
+Jun 13 08:06:57  2026-06-13T08:06:57  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:06:59  2026-06-13T08:06:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-14fC3Fm1rpfxLB9XEgFdf5 "HTTP/1.1 200 OK"
+Jun 13 08:07:01  2026-06-13T08:07:01  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-14fC3Fm1rpfxLB9XEgFdf5 "HTTP/1.1 200 OK"
+Jun 13 08:07:02  2026-06-13T08:07:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-14fC3Fm1rpfxLB9XEgFdf5 "HTTP/1.1 200 OK"
+Jun 13 08:07:04  2026-06-13T08:07:04  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-14fC3Fm1rpfxLB9XEgFdf5 "HTTP/1.1 200 OK"
+Jun 13 08:07:04  2026-06-13T08:07:04  INFO  uploader  File file-14fC3Fm1rpfxLB9XEgFdf5 attached and processed (11654 bytes)
+Jun 13 08:07:05  2026-06-13T08:07:05  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:07:05  2026-06-13T08:07:05  INFO  uploader  Uploaded Enabling-Lock-Down-Mode-on-Touch-Screen-Devices.md → file_id=file-DUK2BtzJZKw1YTGjyEXJVi
+Jun 13 08:07:06  2026-06-13T08:07:06  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:07:08  2026-06-13T08:07:08  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-DUK2BtzJZKw1YTGjyEXJVi "HTTP/1.1 200 OK"
+Jun 13 08:07:10  2026-06-13T08:07:10  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-DUK2BtzJZKw1YTGjyEXJVi "HTTP/1.1 200 OK"
+Jun 13 08:07:12  2026-06-13T08:07:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-DUK2BtzJZKw1YTGjyEXJVi "HTTP/1.1 200 OK"
+Jun 13 08:07:12  2026-06-13T08:07:12  INFO  uploader  File file-DUK2BtzJZKw1YTGjyEXJVi attached and processed (16156 bytes)
+Jun 13 08:07:13  2026-06-13T08:07:13  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:07:13  2026-06-13T08:07:13  INFO  uploader  Uploaded How-to-Use-the-Mobile-App-for-Remote-Control.md → file_id=file-ASin8usSu2d8k23rLYYaXD
+Jun 13 08:07:14  2026-06-13T08:07:14  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:07:15  2026-06-13T08:07:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ASin8usSu2d8k23rLYYaXD "HTTP/1.1 200 OK"
+Jun 13 08:07:17  2026-06-13T08:07:17  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ASin8usSu2d8k23rLYYaXD "HTTP/1.1 200 OK"
+Jun 13 08:07:18  2026-06-13T08:07:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ASin8usSu2d8k23rLYYaXD "HTTP/1.1 200 OK"
+Jun 13 08:07:20  2026-06-13T08:07:20  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ASin8usSu2d8k23rLYYaXD "HTTP/1.1 200 OK"
+Jun 13 08:07:20  2026-06-13T08:07:20  INFO  uploader  File file-ASin8usSu2d8k23rLYYaXD attached and processed (7380 bytes)
+Jun 13 08:07:21  2026-06-13T08:07:21  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:07:21  2026-06-13T08:07:21  INFO  uploader  Uploaded Guide-for-Creating-Content-with-OptiSigns.md → file_id=file-Du9wKrfLFPk6qtxc4GxD5e
+Jun 13 08:07:22  2026-06-13T08:07:22  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:07:24  2026-06-13T08:07:24  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:26  2026-06-13T08:07:26  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:27  2026-06-13T08:07:27  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:29  2026-06-13T08:07:29  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:30  2026-06-13T08:07:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:32  2026-06-13T08:07:32  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:33  2026-06-13T08:07:33  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:35  2026-06-13T08:07:35  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:36  2026-06-13T08:07:36  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:38  2026-06-13T08:07:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:39  2026-06-13T08:07:39  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:40  2026-06-13T08:07:40  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:42  2026-06-13T08:07:42  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:43  2026-06-13T08:07:43  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:46  2026-06-13T08:07:46  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:48  2026-06-13T08:07:48  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:49  2026-06-13T08:07:49  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:50  2026-06-13T08:07:50  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:52  2026-06-13T08:07:52  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:53  2026-06-13T08:07:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:55  2026-06-13T08:07:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:56  2026-06-13T08:07:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:58  2026-06-13T08:07:58  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:07:59  2026-06-13T08:07:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:01  2026-06-13T08:08:01  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:02  2026-06-13T08:08:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:04  2026-06-13T08:08:04  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:05  2026-06-13T08:08:05  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:06  2026-06-13T08:08:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:08  2026-06-13T08:08:08  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:09  2026-06-13T08:08:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:11  2026-06-13T08:08:11  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:12  2026-06-13T08:08:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:14  2026-06-13T08:08:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:15  2026-06-13T08:08:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:17  2026-06-13T08:08:17  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:19  2026-06-13T08:08:19  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:20  2026-06-13T08:08:20  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:21  2026-06-13T08:08:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:23  2026-06-13T08:08:23  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-Du9wKrfLFPk6qtxc4GxD5e "HTTP/1.1 200 OK"
+Jun 13 08:08:23  2026-06-13T08:08:23  WARNING  uploader  Timed out waiting for file file-Du9wKrfLFPk6qtxc4GxD5e to attach
+Jun 13 08:08:23  2026-06-13T08:08:23  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:08:23  2026-06-13T08:08:23  INFO  uploader  Uploaded List-of-Supported-Cities-for-Weather-Wall-City-Themes.md → file_id=file-81BtYSyj4bsYyoc6xKQ1jP
+Jun 13 08:08:24  2026-06-13T08:08:24  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:08:26  2026-06-13T08:08:26  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-81BtYSyj4bsYyoc6xKQ1jP "HTTP/1.1 200 OK"
+Jun 13 08:08:27  2026-06-13T08:08:27  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-81BtYSyj4bsYyoc6xKQ1jP "HTTP/1.1 200 OK"
+Jun 13 08:08:29  2026-06-13T08:08:29  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-81BtYSyj4bsYyoc6xKQ1jP "HTTP/1.1 200 OK"
+Jun 13 08:08:30  2026-06-13T08:08:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-81BtYSyj4bsYyoc6xKQ1jP "HTTP/1.1 200 OK"
+Jun 13 08:08:32  2026-06-13T08:08:32  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-81BtYSyj4bsYyoc6xKQ1jP "HTTP/1.1 200 OK"
+Jun 13 08:08:32  2026-06-13T08:08:32  INFO  uploader  File file-81BtYSyj4bsYyoc6xKQ1jP attached and processed (3153 bytes)
+Jun 13 08:08:32  2026-06-13T08:08:32  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:08:32  2026-06-13T08:08:32  INFO  uploader  Uploaded How-to-Clear-Cache-on-a-BrightSign-Player.md → file_id=file-VSoDvoYPq2YgThTNj81Yym
+Jun 13 08:08:33  2026-06-13T08:08:33  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:08:35  2026-06-13T08:08:35  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VSoDvoYPq2YgThTNj81Yym "HTTP/1.1 200 OK"
+Jun 13 08:08:36  2026-06-13T08:08:36  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VSoDvoYPq2YgThTNj81Yym "HTTP/1.1 200 OK"
+Jun 13 08:08:38  2026-06-13T08:08:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VSoDvoYPq2YgThTNj81Yym "HTTP/1.1 200 OK"
+Jun 13 08:08:39  2026-06-13T08:08:39  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-VSoDvoYPq2YgThTNj81Yym "HTTP/1.1 200 OK"
+Jun 13 08:08:39  2026-06-13T08:08:39  INFO  uploader  File file-VSoDvoYPq2YgThTNj81Yym attached and processed (3989 bytes)
+Jun 13 08:08:40  2026-06-13T08:08:40  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:08:40  2026-06-13T08:08:40  INFO  uploader  Uploaded How-to-Create-an-Attract-Screen-for-Your-Kiosk.md → file_id=file-ArKBBEBuGCLaQERFPr3cdg
+Jun 13 08:08:41  2026-06-13T08:08:41  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:08:42  2026-06-13T08:08:42  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ArKBBEBuGCLaQERFPr3cdg "HTTP/1.1 200 OK"
+Jun 13 08:08:44  2026-06-13T08:08:44  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ArKBBEBuGCLaQERFPr3cdg "HTTP/1.1 200 OK"
+Jun 13 08:08:45  2026-06-13T08:08:45  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ArKBBEBuGCLaQERFPr3cdg "HTTP/1.1 200 OK"
+Jun 13 08:08:47  2026-06-13T08:08:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ArKBBEBuGCLaQERFPr3cdg "HTTP/1.1 200 OK"
+Jun 13 08:08:48  2026-06-13T08:08:48  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ArKBBEBuGCLaQERFPr3cdg "HTTP/1.1 200 OK"
+Jun 13 08:08:49  2026-06-13T08:08:49  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-ArKBBEBuGCLaQERFPr3cdg "HTTP/1.1 200 OK"
+Jun 13 08:08:49  2026-06-13T08:08:49  INFO  uploader  File file-ArKBBEBuGCLaQERFPr3cdg attached and processed (8168 bytes)
+Jun 13 08:08:50  2026-06-13T08:08:50  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:08:50  2026-06-13T08:08:50  INFO  uploader  Uploaded How-to-Set-Up-Dynamic-Data-Mapping-with-OptiSync.md → file_id=file-L8ZaUhYWEFaKhuNhhK1rXt
+Jun 13 08:08:51  2026-06-13T08:08:51  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:08:53  2026-06-13T08:08:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-L8ZaUhYWEFaKhuNhhK1rXt "HTTP/1.1 200 OK"
+Jun 13 08:08:54  2026-06-13T08:08:54  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-L8ZaUhYWEFaKhuNhhK1rXt "HTTP/1.1 200 OK"
+Jun 13 08:08:56  2026-06-13T08:08:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-L8ZaUhYWEFaKhuNhhK1rXt "HTTP/1.1 200 OK"
+Jun 13 08:08:57  2026-06-13T08:08:57  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-L8ZaUhYWEFaKhuNhhK1rXt "HTTP/1.1 200 OK"
+Jun 13 08:08:57  2026-06-13T08:08:57  INFO  uploader  File file-L8ZaUhYWEFaKhuNhhK1rXt attached and processed (33740 bytes)
+Jun 13 08:08:58  2026-06-13T08:08:58  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:08:58  2026-06-13T08:08:58  INFO  uploader  Uploaded How-To-Create-and-Use-Operational-Schedules-HDMI-CEC-RS-232.md → file_id=file-SKciqK7HfeejNpZ53iRzay
+Jun 13 08:08:59  2026-06-13T08:08:59  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:09:00  2026-06-13T08:09:00  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-SKciqK7HfeejNpZ53iRzay "HTTP/1.1 200 OK"
+Jun 13 08:09:01  2026-06-13T08:09:01  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-SKciqK7HfeejNpZ53iRzay "HTTP/1.1 200 OK"
+Jun 13 08:09:03  2026-06-13T08:09:03  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-SKciqK7HfeejNpZ53iRzay "HTTP/1.1 200 OK"
+Jun 13 08:09:03  2026-06-13T08:09:03  INFO  uploader  File file-SKciqK7HfeejNpZ53iRzay attached and processed (19423 bytes)
+Jun 13 08:09:04  2026-06-13T08:09:04  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:09:04  2026-06-13T08:09:04  INFO  uploader  Uploaded Performance-Stability-issues-on-Android-devices-and-Best-Practices.md → file_id=file-QTH5VEJuCwmuszrRPDfzXR
+Jun 13 08:09:05  2026-06-13T08:09:05  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:09:06  2026-06-13T08:09:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QTH5VEJuCwmuszrRPDfzXR "HTTP/1.1 200 OK"
+Jun 13 08:09:08  2026-06-13T08:09:08  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QTH5VEJuCwmuszrRPDfzXR "HTTP/1.1 200 OK"
+Jun 13 08:09:09  2026-06-13T08:09:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QTH5VEJuCwmuszrRPDfzXR "HTTP/1.1 200 OK"
+Jun 13 08:09:10  2026-06-13T08:09:10  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QTH5VEJuCwmuszrRPDfzXR "HTTP/1.1 200 OK"
+Jun 13 08:09:10  2026-06-13T08:09:10  INFO  uploader  File file-QTH5VEJuCwmuszrRPDfzXR attached and processed (4383 bytes)
+Jun 13 08:09:11  2026-06-13T08:09:11  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:09:11  2026-06-13T08:09:11  INFO  uploader  Uploaded Samsung-Tizen-TVs-Troubleshooting-Guide.md → file_id=file-5M8DZUAW27yVmquKq44aYu
+Jun 13 08:09:12  2026-06-13T08:09:12  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:09:14  2026-06-13T08:09:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5M8DZUAW27yVmquKq44aYu "HTTP/1.1 200 OK"
+Jun 13 08:09:15  2026-06-13T08:09:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5M8DZUAW27yVmquKq44aYu "HTTP/1.1 200 OK"
+Jun 13 08:09:16  2026-06-13T08:09:16  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5M8DZUAW27yVmquKq44aYu "HTTP/1.1 200 OK"
+Jun 13 08:09:18  2026-06-13T08:09:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-5M8DZUAW27yVmquKq44aYu "HTTP/1.1 200 OK"
+Jun 13 08:09:18  2026-06-13T08:09:18  INFO  uploader  File file-5M8DZUAW27yVmquKq44aYu attached and processed (6502 bytes)
+Jun 13 08:09:19  2026-06-13T08:09:19  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:09:19  2026-06-13T08:09:19  INFO  uploader  Uploaded Roku-Troubleshooting-guide.md → file_id=file-CeNVwqKeHq3YFHCdy8PAAs
+Jun 13 08:09:20  2026-06-13T08:09:20  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:09:21  2026-06-13T08:09:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-CeNVwqKeHq3YFHCdy8PAAs "HTTP/1.1 200 OK"
+Jun 13 08:09:22  2026-06-13T08:09:22  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-CeNVwqKeHq3YFHCdy8PAAs "HTTP/1.1 200 OK"
+Jun 13 08:09:24  2026-06-13T08:09:24  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-CeNVwqKeHq3YFHCdy8PAAs "HTTP/1.1 200 OK"
+Jun 13 08:09:25  2026-06-13T08:09:25  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-CeNVwqKeHq3YFHCdy8PAAs "HTTP/1.1 200 OK"
+Jun 13 08:09:27  2026-06-13T08:09:27  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-CeNVwqKeHq3YFHCdy8PAAs "HTTP/1.1 200 OK"
+Jun 13 08:09:27  2026-06-13T08:09:27  INFO  uploader  File file-CeNVwqKeHq3YFHCdy8PAAs attached and processed (6978 bytes)
+Jun 13 08:09:27  2026-06-13T08:09:27  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:09:27  2026-06-13T08:09:27  INFO  uploader  Uploaded How-to-Create-Use-Playlists.md → file_id=file-GEuYx9vjVQcGRxh7VhVHye
+Jun 13 08:09:28  2026-06-13T08:09:28  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:09:30  2026-06-13T08:09:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:31  2026-06-13T08:09:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:33  2026-06-13T08:09:33  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:34  2026-06-13T08:09:34  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:36  2026-06-13T08:09:36  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:37  2026-06-13T08:09:37  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:39  2026-06-13T08:09:39  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:40  2026-06-13T08:09:40  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:42  2026-06-13T08:09:42  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:43  2026-06-13T08:09:43  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:44  2026-06-13T08:09:44  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:46  2026-06-13T08:09:46  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-GEuYx9vjVQcGRxh7VhVHye "HTTP/1.1 200 OK"
+Jun 13 08:09:46  2026-06-13T08:09:46  INFO  uploader  File file-GEuYx9vjVQcGRxh7VhVHye attached and processed (7445 bytes)
+Jun 13 08:09:46  2026-06-13T08:09:46  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:09:46  2026-06-13T08:09:46  INFO  uploader  Uploaded How-to-Use-QR-Overlay-App-in-Engage.md → file_id=file-8o8NWuU4TubvRp6ufraNgt
+Jun 13 08:09:47  2026-06-13T08:09:47  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:09:49  2026-06-13T08:09:49  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8o8NWuU4TubvRp6ufraNgt "HTTP/1.1 200 OK"
+Jun 13 08:09:50  2026-06-13T08:09:50  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8o8NWuU4TubvRp6ufraNgt "HTTP/1.1 200 OK"
+Jun 13 08:09:52  2026-06-13T08:09:52  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8o8NWuU4TubvRp6ufraNgt "HTTP/1.1 200 OK"
+Jun 13 08:09:53  2026-06-13T08:09:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8o8NWuU4TubvRp6ufraNgt "HTTP/1.1 200 OK"
+Jun 13 08:09:55  2026-06-13T08:09:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8o8NWuU4TubvRp6ufraNgt "HTTP/1.1 200 OK"
+Jun 13 08:09:55  2026-06-13T08:09:55  INFO  uploader  File file-8o8NWuU4TubvRp6ufraNgt attached and processed (7297 bytes)
+Jun 13 08:09:55  2026-06-13T08:09:55  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:09:55  2026-06-13T08:09:55  INFO  uploader  Uploaded How-to-Change-Close-Nav-Bar-Styler-Preferences.md → file_id=file-2DRRPvmGWHPVry16Ungphg
+Jun 13 08:09:56  2026-06-13T08:09:56  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:09:58  2026-06-13T08:09:58  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2DRRPvmGWHPVry16Ungphg "HTTP/1.1 200 OK"
+Jun 13 08:09:59  2026-06-13T08:09:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2DRRPvmGWHPVry16Ungphg "HTTP/1.1 200 OK"
+Jun 13 08:10:00  2026-06-13T08:10:00  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2DRRPvmGWHPVry16Ungphg "HTTP/1.1 200 OK"
+Jun 13 08:10:02  2026-06-13T08:10:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2DRRPvmGWHPVry16Ungphg "HTTP/1.1 200 OK"
+Jun 13 08:10:02  2026-06-13T08:10:02  INFO  uploader  File file-2DRRPvmGWHPVry16Ungphg attached and processed (2910 bytes)
+Jun 13 08:10:02  2026-06-13T08:10:02  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:10:02  2026-06-13T08:10:02  INFO  uploader  Uploaded AI-Camera-App-Quick-Start.md → file_id=file-TmcwcJcHJ9cGwfFeZwoyRx
+Jun 13 08:10:03  2026-06-13T08:10:03  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:10:05  2026-06-13T08:10:05  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-TmcwcJcHJ9cGwfFeZwoyRx "HTTP/1.1 200 OK"
+Jun 13 08:10:06  2026-06-13T08:10:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-TmcwcJcHJ9cGwfFeZwoyRx "HTTP/1.1 200 OK"
+Jun 13 08:10:08  2026-06-13T08:10:08  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-TmcwcJcHJ9cGwfFeZwoyRx "HTTP/1.1 200 OK"
+Jun 13 08:10:09  2026-06-13T08:10:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-TmcwcJcHJ9cGwfFeZwoyRx "HTTP/1.1 200 OK"
+Jun 13 08:10:09  2026-06-13T08:10:09  INFO  uploader  File file-TmcwcJcHJ9cGwfFeZwoyRx attached and processed (14069 bytes)
+Jun 13 08:10:10  2026-06-13T08:10:10  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:10:10  2026-06-13T08:10:10  INFO  uploader  Uploaded Amazon-TV-FireStick-Troubleshooting-Guide.md → file_id=file-KGHyQ4KFAuvJ4HQ78DQ4xA
+Jun 13 08:10:11  2026-06-13T08:10:11  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:10:12  2026-06-13T08:10:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-KGHyQ4KFAuvJ4HQ78DQ4xA "HTTP/1.1 200 OK"
+Jun 13 08:10:14  2026-06-13T08:10:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-KGHyQ4KFAuvJ4HQ78DQ4xA "HTTP/1.1 200 OK"
+Jun 13 08:10:15  2026-06-13T08:10:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-KGHyQ4KFAuvJ4HQ78DQ4xA "HTTP/1.1 200 OK"
+Jun 13 08:10:17  2026-06-13T08:10:17  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-KGHyQ4KFAuvJ4HQ78DQ4xA "HTTP/1.1 200 OK"
+Jun 13 08:10:17  2026-06-13T08:10:17  INFO  uploader  File file-KGHyQ4KFAuvJ4HQ78DQ4xA attached and processed (10209 bytes)
+Jun 13 08:10:17  2026-06-13T08:10:17  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:10:17  2026-06-13T08:10:17  INFO  uploader  Uploaded Move-Screens-or-Devices-from-One-Account-to-Another.md → file_id=file-De2HVpba1RdMoxjR1wRVBN
+Jun 13 08:10:18  2026-06-13T08:10:18  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:10:19  2026-06-13T08:10:19  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-De2HVpba1RdMoxjR1wRVBN "HTTP/1.1 200 OK"
+Jun 13 08:10:21  2026-06-13T08:10:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-De2HVpba1RdMoxjR1wRVBN "HTTP/1.1 200 OK"
+Jun 13 08:10:22  2026-06-13T08:10:22  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-De2HVpba1RdMoxjR1wRVBN "HTTP/1.1 200 OK"
+Jun 13 08:10:24  2026-06-13T08:10:24  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-De2HVpba1RdMoxjR1wRVBN "HTTP/1.1 200 OK"
+Jun 13 08:10:25  2026-06-13T08:10:25  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-De2HVpba1RdMoxjR1wRVBN "HTTP/1.1 200 OK"
+Jun 13 08:10:25  2026-06-13T08:10:25  INFO  uploader  File file-De2HVpba1RdMoxjR1wRVBN attached and processed (3612 bytes)
+Jun 13 08:10:26  2026-06-13T08:10:26  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:10:26  2026-06-13T08:10:26  INFO  uploader  Uploaded How-to-use-iCloud-Calendar-with-OptiSigns.md → file_id=file-MhTEDFd2An8Gq9dkR1xjpr
+Jun 13 08:10:27  2026-06-13T08:10:27  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:10:28  2026-06-13T08:10:28  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MhTEDFd2An8Gq9dkR1xjpr "HTTP/1.1 200 OK"
+Jun 13 08:10:30  2026-06-13T08:10:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MhTEDFd2An8Gq9dkR1xjpr "HTTP/1.1 200 OK"
+Jun 13 08:10:31  2026-06-13T08:10:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MhTEDFd2An8Gq9dkR1xjpr "HTTP/1.1 200 OK"
+Jun 13 08:10:33  2026-06-13T08:10:33  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MhTEDFd2An8Gq9dkR1xjpr "HTTP/1.1 200 OK"
+Jun 13 08:10:34  2026-06-13T08:10:34  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MhTEDFd2An8Gq9dkR1xjpr "HTTP/1.1 200 OK"
+Jun 13 08:10:35  2026-06-13T08:10:35  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-MhTEDFd2An8Gq9dkR1xjpr "HTTP/1.1 200 OK"
+Jun 13 08:10:35  2026-06-13T08:10:35  INFO  uploader  File file-MhTEDFd2An8Gq9dkR1xjpr attached and processed (7813 bytes)
+Jun 13 08:10:36  2026-06-13T08:10:36  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:10:36  2026-06-13T08:10:36  INFO  uploader  Uploaded OptiStick.md → file_id=file-QkkbJMKB29pZTro2DTKPF6
+Jun 13 08:10:37  2026-06-13T08:10:37  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:10:38  2026-06-13T08:10:38  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QkkbJMKB29pZTro2DTKPF6 "HTTP/1.1 200 OK"
+Jun 13 08:10:40  2026-06-13T08:10:40  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QkkbJMKB29pZTro2DTKPF6 "HTTP/1.1 200 OK"
+Jun 13 08:10:41  2026-06-13T08:10:41  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QkkbJMKB29pZTro2DTKPF6 "HTTP/1.1 200 OK"
+Jun 13 08:10:43  2026-06-13T08:10:43  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-QkkbJMKB29pZTro2DTKPF6 "HTTP/1.1 200 OK"
+Jun 13 08:10:43  2026-06-13T08:10:43  INFO  uploader  File file-QkkbJMKB29pZTro2DTKPF6 attached and processed (11355 bytes)
+Jun 13 08:10:43  2026-06-13T08:10:43  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:10:43  2026-06-13T08:10:43  INFO  uploader  Uploaded How-to-Lockdown-iPad-Single-App-with-Guided-Accessibility.md → file_id=file-8TyHjgeC4ue6vrccyprCoD
+Jun 13 08:10:44  2026-06-13T08:10:44  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:10:46  2026-06-13T08:10:46  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8TyHjgeC4ue6vrccyprCoD "HTTP/1.1 200 OK"
+Jun 13 08:10:47  2026-06-13T08:10:47  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8TyHjgeC4ue6vrccyprCoD "HTTP/1.1 200 OK"
+Jun 13 08:10:49  2026-06-13T08:10:49  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8TyHjgeC4ue6vrccyprCoD "HTTP/1.1 200 OK"
+Jun 13 08:10:50  2026-06-13T08:10:50  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-8TyHjgeC4ue6vrccyprCoD "HTTP/1.1 200 OK"
+Jun 13 08:10:50  2026-06-13T08:10:50  INFO  uploader  File file-8TyHjgeC4ue6vrccyprCoD attached and processed (2568 bytes)
+Jun 13 08:10:51  2026-06-13T08:10:51  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:10:51  2026-06-13T08:10:51  INFO  uploader  Uploaded How-to-add-a-QR-Code-in-designs-using-OptiSigns-Designer.md → file_id=file-4SiycU1CUeS7soWhF7ES3W
+Jun 13 08:10:52  2026-06-13T08:10:52  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:10:53  2026-06-13T08:10:53  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:10:55  2026-06-13T08:10:55  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:10:56  2026-06-13T08:10:56  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:10:57  2026-06-13T08:10:57  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:10:59  2026-06-13T08:10:59  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:11:00  2026-06-13T08:11:00  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:11:02  2026-06-13T08:11:02  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:11:03  2026-06-13T08:11:03  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:11:05  2026-06-13T08:11:05  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:11:06  2026-06-13T08:11:06  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-4SiycU1CUeS7soWhF7ES3W "HTTP/1.1 200 OK"
+Jun 13 08:11:06  2026-06-13T08:11:06  INFO  uploader  File file-4SiycU1CUeS7soWhF7ES3W attached and processed (2640 bytes)
+Jun 13 08:11:07  2026-06-13T08:11:07  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:11:07  2026-06-13T08:11:07  INFO  uploader  Uploaded What-Are-Feeds-and-How-to-Use-It.md → file_id=file-3nzXChnjtwpMdK3eiJtdkj
+Jun 13 08:11:08  2026-06-13T08:11:08  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:11:09  2026-06-13T08:11:09  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3nzXChnjtwpMdK3eiJtdkj "HTTP/1.1 200 OK"
+Jun 13 08:11:11  2026-06-13T08:11:11  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3nzXChnjtwpMdK3eiJtdkj "HTTP/1.1 200 OK"
+Jun 13 08:11:12  2026-06-13T08:11:12  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3nzXChnjtwpMdK3eiJtdkj "HTTP/1.1 200 OK"
+Jun 13 08:11:14  2026-06-13T08:11:14  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3nzXChnjtwpMdK3eiJtdkj "HTTP/1.1 200 OK"
+Jun 13 08:11:15  2026-06-13T08:11:15  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3nzXChnjtwpMdK3eiJtdkj "HTTP/1.1 200 OK"
+Jun 13 08:11:15  2026-06-13T08:11:15  INFO  uploader  File file-3nzXChnjtwpMdK3eiJtdkj attached and processed (7261 bytes)
+Jun 13 08:11:16  2026-06-13T08:11:16  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:11:16  2026-06-13T08:11:16  INFO  uploader  Uploaded How-to-get-Google-Review-link.md → file_id=file-3h1DSrrW4w7rRLdNDivh5p
+Jun 13 08:11:17  2026-06-13T08:11:17  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:11:18  2026-06-13T08:11:18  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3h1DSrrW4w7rRLdNDivh5p "HTTP/1.1 200 OK"
+Jun 13 08:11:20  2026-06-13T08:11:20  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3h1DSrrW4w7rRLdNDivh5p "HTTP/1.1 200 OK"
+Jun 13 08:11:21  2026-06-13T08:11:21  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-3h1DSrrW4w7rRLdNDivh5p "HTTP/1.1 200 OK"
+Jun 13 08:11:21  2026-06-13T08:11:21  INFO  uploader  File file-3h1DSrrW4w7rRLdNDivh5p attached and processed (1855 bytes)
+Jun 13 08:11:22  2026-06-13T08:11:22  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+Jun 13 08:11:22  2026-06-13T08:11:22  INFO  uploader  Uploaded How-to-use-Check-in-app-with-SMS-follow-up.md → file_id=file-2zUviYuquST446V5kVERay
+Jun 13 08:11:23  2026-06-13T08:11:23  INFO  httpx  HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files "HTTP/1.1 200 OK"
+Jun 13 08:11:24  2026-06-13T08:11:24  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2zUviYuquST446V5kVERay "HTTP/1.1 200 OK"
+Jun 13 08:11:26  2026-06-13T08:11:26  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2zUviYuquST446V5kVERay "HTTP/1.1 200 OK"
+Jun 13 08:11:27  2026-06-13T08:11:27  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2zUviYuquST446V5kVERay "HTTP/1.1 200 OK"
+Jun 13 08:11:29  2026-06-13T08:11:29  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2zUviYuquST446V5kVERay "HTTP/1.1 200 OK"
+Jun 13 08:11:30  2026-06-13T08:11:30  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83/files/file-2zUviYuquST446V5kVERay "HTTP/1.1 200 OK"
+Jun 13 08:11:30  2026-06-13T08:11:30  INFO  uploader  File file-2zUviYuquST446V5kVERay attached and processed (16582 bytes)
+Jun 13 08:11:31  2026-06-13T08:11:31  INFO  httpx  HTTP Request: GET https://api.openai.com/v1/vector_stores/vs_6a2bde28a25081918a66bb2f99408d83 "HTTP/1.1 200 OK"
+Jun 13 08:11:31  2026-06-13T08:11:31  INFO  uploader  Vector Store summary — files: 120 (completed: 120, in_progress: 0, failed: 0), usage_bytes: 1575222
+Jun 13 08:11:31  2026-06-13T08:11:31  INFO  uploader  Sync complete — total: 60, succeeded: 58, failed: 2, vector_store: vs_6a2bde28a25081918a66bb2f99408d83
+Jun 13 08:11:31  2026-06-13T08:11:31  INFO  main  Upload — succeeded: 58, failed: 2
+Jun 13 08:11:31  2026-06-13T08:11:31  INFO  main  State persisted — done.
