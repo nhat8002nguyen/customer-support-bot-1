@@ -25,6 +25,8 @@ class ArticleState:
     slug: str
     sha256: str
     last_modified: str
+    article_id: int = 0
+    openai_file_id: str = ""
 
 
 @dataclass
@@ -34,3 +36,11 @@ class DeltaResult:
     added: list[Article] = field(default_factory=list)
     updated: list[Article] = field(default_factory=list)
     skipped: list[Article] = field(default_factory=list)
+
+
+@dataclass
+class SyncResult:
+    """Result of uploading articles to OpenAI."""
+
+    succeeded: dict[str, str] = field(default_factory=dict)  # slug -> file_id
+    failed: int = 0

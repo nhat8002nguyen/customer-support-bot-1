@@ -1,7 +1,5 @@
-requests
-beautifulsoup4
-markdownify
-openai
-python-dotenv
-pytest
-pytest-mock
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+markdownify>=0.13,<1
+openai>=1.40,<2
+python-dotenv>=1.0,<2

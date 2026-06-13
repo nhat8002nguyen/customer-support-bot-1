@@ -7,7 +7,7 @@ A daily scheduled scraper-uploader that ingests articles from [support.optisigns
 ```bash
 # 1. Clone and install
 python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 
 # 2. Configure environment
 cp .env.sample .env
@@ -21,14 +21,14 @@ python main.py
 
 ```
 Zendesk API ──▶ Scraper ──▶ data/articles/*.md ──▶ Delta Detection ──▶ OpenAI Vector Store
-                      (399 articles)           (SHA256 hashing)     (new/updated only)
+                 (up to 399)              (SHA256 hashing)     (new/updated only)
 ```
 
-1. **Scrape** — Fetches all non-draft articles from the Zendesk Help Center API (paginated). Converts HTML to clean Markdown via `BeautifulSoup` + `markdownify`. Strips nav, ads, and extraneous elements. Saves each article as `data/articles/<slug>.md` with YAML frontmatter.
+1. **Scrape** — Fetches all non-draft articles from the Zendesk Help Center API (paginated, with retries). Converts HTML to clean Markdown via `BeautifulSoup` + `markdownify`. Strips nav, ads, and extraneous elements. Saves each article as `data/articles/<slug>.md` with YAML frontmatter.
 
-2. **Delta Detection** — Computes SHA256 of each article's Markdown content and compares against saved `state.json`. Only new or changed articles proceed to upload.
+2. **Delta Detection** — Computes SHA256 of each article's full file content (frontmatter + body) and compares against saved `state.json`. Only new or changed articles proceed to upload. Articles removed from Zendesk are deleted from the vector store.
 
-3. **Upload** — Uploads new/updated Markdown files to OpenAI via the Files API, then attaches them to the configured Vector Store. Polls for processing completion and logs file/chunk counts.
+3. **Upload** — Uploads new/updated Markdown files to OpenAI via the Files API, replaces previous file IDs on update, then attaches them to the configured Vector Store. Polls for processing completion and logs file/chunk counts. Failed uploads are retried on the next run; state is only updated for successful uploads.
 
 ## Configuration
 
@@ -39,6 +39,17 @@ Zendesk API ──▶ Scraper ──▶ data/articles/*.md ──▶ Delta Detec
 | `ZENDESK_BASE_URL` | No | `https://support.optisigns.com` | Zendesk Help Center base URL |
 | `DATA_DIR` | No | `data/articles` | Directory for Markdown files |
 | `STATE_FILE_PATH` | No | `state.json` | Delta state persistence file |
+| `MAX_PAGES` | No | `0` (unlimited) | Limit Zendesk pages to fetch (useful for dev) |
+| `MIN_ARTICLES` | No | `0` (no check) | Minimum scraped articles required for success |
+| `FETCH_RETRIES` | No | `3` | Retries per Zendesk API page on transient errors |
+| `POLL_TIMEOUT_S` | No | `180` | Seconds to wait for vector-store file processing |
+
+## Testing
+
+```bash
+pip install -r requirements-dev.txt
+pytest tests/ -q
+```
 
 ## Docker
 
@@ -50,7 +61,9 @@ docker run --rm \
   optibot-mini
 ```
 
-The container runs once and exits 0 on success.
+The container runs once and exits **0 on full success**, **1 on config/scrape/upload failures**.
+
+> **State persistence:** `state.json` is excluded from the Docker image (`.dockerignore`) so each fresh container starts without prior hashes. Mount a persistent volume for `STATE_FILE_PATH` in production (e.g. DigitalOcean App Platform volume) to enable delta detection across runs and avoid re-uploading all articles.
 
 ## DigitalOcean Deployment
 
@@ -61,7 +74,8 @@ The container runs once and exits 0 on success.
    - `OPENAI_API_KEY`
    - `OPENAI_VECTOR_STORE_ID`
 5. Set **Schedule** to daily (e.g., `0 6 * * *`).
-6. Deploy and monitor logs at your DO App Platform dashboard.
+6. Mount a **persistent volume** at the path used by `STATE_FILE_PATH` (default: `/app/state.json` or project root) so delta detection survives restarts.
+7. Deploy and monitor logs at your DO App Platform dashboard.
 
 ### Deployment Proof
 
@@ -95,7 +109,8 @@ References from a successful scheduled run on App Platform (`sea-turtle-app`, cr
 ```
 ├── main.py              # Entry point (scrape → delta → upload)
 ├── Dockerfile           # Multi-stage Docker build
-├── requirements.txt     # Python dependencies
+├── requirements.txt     # Production Python dependencies
+├── requirements-dev.txt # Dev/test dependencies (includes pytest)
 ├── .env.sample          # Environment variable template
 ├── src/
 │   ├── config.py        # Typed config from environment

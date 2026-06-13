@@ -9,9 +9,16 @@ import logging
 import sys
 
 from src.config import load_config
-from src.scraper import run_scraper
-from src.state import detect_deltas, load_state, save_state
-from src.uploader import sync_articles
+from src.scraper import ScrapeIncompleteError, run_scraper
+from src.state import (
+    build_next_state,
+    detect_deltas,
+    find_removed_slugs,
+    load_state,
+    persist_state,
+)
+from src.types import SyncResult
+from src.uploader import remove_stale_articles, sync_articles
 
 logging.basicConfig(
     level=logging.INFO,
@@ -28,16 +35,33 @@ def main() -> int:
         log.error(exc)
         return 1
 
-    # 1. Scrape Zendesk articles → Markdown files
-    articles = run_scraper(cfg)
+    try:
+        articles = run_scraper(cfg)
+    except ScrapeIncompleteError as exc:
+        log.error("Scrape incomplete: %s", exc)
+        return 1
+
     if not articles:
         log.warning("No articles scraped; nothing to upload.")
         return 0
 
     log.info("Scraped %d articles", len(articles))
 
-    # 2. Detect delta against previous state
+    if cfg.min_articles > 0 and len(articles) < cfg.min_articles:
+        log.error(
+            "Scraped %d articles, below minimum of %d",
+            len(articles),
+            cfg.min_articles,
+        )
+        return 1
+
     prev_state = load_state(cfg.state_file_path)
+
+    removed_slugs = find_removed_slugs(articles, prev_state)
+    if removed_slugs:
+        log.info("Detected %d removed article(s)", len(removed_slugs))
+        remove_stale_articles(removed_slugs, prev_state, cfg)
+
     result = detect_deltas(articles, prev_state)
 
     log.info(
@@ -47,17 +71,24 @@ def main() -> int:
         len(result.skipped),
     )
 
-    # 3. Upload only new/updated files to OpenAI Vector Store
     to_upload = result.added + result.updated
+    sync_result = SyncResult()
     if to_upload:
-        uploaded, failed = sync_articles(to_upload, cfg)
-        log.info("Upload — succeeded: %d, failed: %d", uploaded, failed)
+        sync_result = sync_articles(to_upload, cfg, prev_state)
+        log.info(
+            "Upload — succeeded: %d, failed: %d",
+            len(sync_result.succeeded),
+            sync_result.failed,
+        )
     else:
         log.info("Nothing to upload — all articles up to date.")
 
-    # 4. Persist state hash for next run
-    save_state(cfg.state_file_path, articles)
+    next_state = build_next_state(articles, prev_state, result, sync_result.succeeded)
+    persist_state(cfg.state_file_path, next_state)
     log.info("State persisted — done.")
+
+    if sync_result.failed > 0:
+        return 1
 
     return 0
 

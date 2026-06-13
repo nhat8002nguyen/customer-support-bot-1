@@ -32,6 +32,15 @@ class Config:
     max_pages: int = field(
         default_factory=lambda: int(os.environ.get("MAX_PAGES", "0"))
     )
+    min_articles: int = field(
+        default_factory=lambda: int(os.environ.get("MIN_ARTICLES", "0"))
+    )
+    fetch_retries: int = field(
+        default_factory=lambda: int(os.environ.get("FETCH_RETRIES", "3"))
+    )
+    poll_timeout_s: float = field(
+        default_factory=lambda: float(os.environ.get("POLL_TIMEOUT_S", "180"))
+    )
 
     def validate(self) -> None:
         missing: list[str] = []

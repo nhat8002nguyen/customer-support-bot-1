@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import os
 import re
@@ -21,17 +22,19 @@ USER_AGENT = "OptiBot-Mini-Clone/0.1.0"
 PAGE_DELAY_S = 0.5  # polite delay between paginated requests
 
 
+class ScrapeIncompleteError(Exception):
+    """Raised when the Zendesk API cannot be fully fetched after retries."""
+
+
 def _slug_from_url(html_url: str) -> str:
     """Extract a filesystem-safe slug from the article's html_url.
 
     Example: "https://support.optisigns.com/hc/en-us/articles/52523606879251-OptiSigns-Digital-Signage-..."
     → "optisigns-digital-signage-app-for-zoom"
     """
-    # Last path segment after the ID
     m = re.search(r"/articles/\d+-(.+)$", html_url)
     if m:
         return m.group(1).rstrip("/")
-    # Fallback: use the article ID
     m = re.search(r"/articles/(\d+)", html_url)
     return m.group(1) if m else "unknown"
 
@@ -40,7 +43,6 @@ def _clean_html(html: str) -> str:
     """Strip nav, ads, and extraneous elements from Zendesk article HTML."""
     soup = BeautifulSoup(html, "html.parser")
 
-    # Remove elements that are clearly navigation/sidebar/ads
     for selector in [
         "nav",
         "header",
@@ -73,7 +75,7 @@ def _html_to_markdown(html: str) -> str:
     cleaned = _clean_html(html)
 
     options = {
-        "heading_style": "ATX",  # ## headings
+        "heading_style": "ATX",
         "bullets": "-",
         "code_language": "",
         "code_style": "fenced",
@@ -85,45 +87,83 @@ def _html_to_markdown(html: str) -> str:
 
     markdown = md(cleaned, **options)
 
-    # Collapse excessive blank lines (max 2)
-    # Collapse excessive blank lines (max 2)
     lines = markdown.split("\n")
-    cleaned: list[str] = []
+    collapsed: list[str] = []
     blank_count = 0
     for line in lines:
         if line.strip() == "":
             blank_count += 1
             if blank_count <= 2:
-                cleaned.append("")
+                collapsed.append("")
         else:
             blank_count = 0
-            cleaned.append(line.rstrip())
-    markdown = "\n".join(cleaned)
+            collapsed.append(line.rstrip())
+    markdown = "\n".join(collapsed)
     return markdown.strip() + "\n"
 
 
-def fetch_all_articles(base_url: str, max_pages: int = 0) -> list[dict]:
+def _build_frontmatter(article: Article) -> str:
+    """Build YAML frontmatter with safely escaped values."""
+    return (
+        "---\n"
+        f"title: {json.dumps(article.title)}\n"
+        f"url: {json.dumps(article.html_url)}\n"
+        f"updated_at: {json.dumps(article.updated_at)}\n"
+        "---\n\n"
+    )
+
+
+def _fetch_page(session: requests.Session, url: str, retries: int) -> requests.Response:
+    last_error: requests.RequestException | None = None
+    for attempt in range(1, retries + 1):
+        try:
+            response = session.get(url, timeout=30)
+            response.raise_for_status()
+            return response
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt < retries:
+                delay = 2 ** (attempt - 1)
+                log.warning(
+                    "Fetch attempt %d/%d failed (%s); retrying in %ds",
+                    attempt,
+                    retries,
+                    exc,
+                    delay,
+                )
+                time.sleep(delay)
+
+    assert last_error is not None
+    raise last_error
+
+
+def fetch_all_articles(
+    base_url: str, max_pages: int = 0, retries: int = 3
+) -> list[dict]:
     """Fetch all non-draft articles from Zendesk Help Center (paginated)."""
     articles: list[dict] = []
-    url = urljoin(base_url.rstrip("/") + "/", API_PATH.lstrip("/"))
-    page = 0
+    url: str | None = urljoin(base_url.rstrip("/") + "/", API_PATH.lstrip("/"))
+    pages_fetched = 0
 
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
 
     while url:
-        page += 1
-        if max_pages > 0 and page > max_pages:
-            break
-        log.info("Fetching article page %d ...", page)
-        try:
-            resp = session.get(url, timeout=30)
-            resp.raise_for_status()
-        except requests.RequestException as exc:
-            log.error("Failed to fetch page %d: %s", page, exc)
+        if max_pages > 0 and pages_fetched >= max_pages:
             break
 
-        data = resp.json()
+        page_number = pages_fetched + 1
+        log.info("Fetching article page %d ...", page_number)
+        try:
+            response = _fetch_page(session, url, retries)
+        except requests.RequestException as exc:
+            log.error("Failed to fetch page %d after %d retries: %s", page_number, retries, exc)
+            raise ScrapeIncompleteError(
+                f"Failed to fetch Zendesk page {page_number}: {exc}"
+            ) from exc
+
+        pages_fetched += 1
+        data = response.json()
         for raw in data.get("articles", []):
             if raw.get("draft", False):
                 continue
@@ -133,7 +173,11 @@ def fetch_all_articles(base_url: str, max_pages: int = 0) -> list[dict]:
         if url:
             time.sleep(PAGE_DELAY_S)
 
-    log.info("Fetched %d non-draft articles across %d pages", len(articles), page)
+    log.info(
+        "Fetched %d non-draft articles across %d pages",
+        len(articles),
+        pages_fetched,
+    )
     return articles
 
 
@@ -144,7 +188,11 @@ def run_scraper(cfg) -> list[Article]:
     """
     os.makedirs(cfg.data_dir, exist_ok=True)
 
-    raw_articles = fetch_all_articles(cfg.zendesk_base_url, max_pages=cfg.max_pages)
+    raw_articles = fetch_all_articles(
+        cfg.zendesk_base_url,
+        max_pages=cfg.max_pages,
+        retries=cfg.fetch_retries,
+    )
     parsed: list[Article] = []
 
     for raw in raw_articles:
@@ -161,20 +209,16 @@ def run_scraper(cfg) -> list[Article]:
             html_url=raw["html_url"],
         )
 
-        # Write Markdown file with YAML frontmatter
-        frontmatter = (
-            "---\n"
-            f'title: "{article.title}"\n'
-            f"url: {article.html_url}\n"
-            f"updated_at: {article.updated_at}\n"
-            "---\n\n"
-        )
+        frontmatter = _build_frontmatter(article)
+        file_content = frontmatter + body_md
+        article.md_content = file_content
+
         filepath = os.path.join(cfg.data_dir, f"{slug}.md")
         with open(filepath, "w", encoding="utf-8") as f:
-            f.write(frontmatter + body_md)
+            f.write(file_content)
 
         parsed.append(article)
-        log.debug("Saved %s (%d chars)", filepath, len(body_md))
+        log.debug("Saved %s (%d chars)", filepath, len(file_content))
 
     log.info("Scraped %d articles → %s/", len(parsed), cfg.data_dir)
     return parsed
