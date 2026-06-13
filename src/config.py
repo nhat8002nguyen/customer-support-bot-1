@@ -29,6 +29,21 @@ class Config:
     state_file_path: str = field(
         default_factory=lambda: os.environ.get("STATE_FILE_PATH", "state.json")
     )
+    state_backend: str = field(
+        default_factory=lambda: os.environ.get("STATE_BACKEND", "local").lower()
+    )
+    spaces_access_key_id: str = field(
+        default_factory=lambda: os.environ.get("SPACES_ACCESS_KEY_ID", "")
+    )
+    spaces_secret_access_key: str = field(
+        default_factory=lambda: os.environ.get("SPACES_SECRET_ACCESS_KEY", "")
+    )
+    spaces_bucket: str = field(
+        default_factory=lambda: os.environ.get("SPACES_BUCKET", "")
+    )
+    spaces_region: str = field(
+        default_factory=lambda: os.environ.get("SPACES_REGION", "sgp1")
+    )
     max_pages: int = field(
         default_factory=lambda: int(os.environ.get("MAX_PAGES", "0"))
     )
@@ -48,6 +63,19 @@ class Config:
             missing.append("OPENAI_API_KEY")
         if not self.openai_vector_store_id:
             missing.append("OPENAI_VECTOR_STORE_ID")
+        if self.state_backend not in ("local", "spaces"):
+            raise RuntimeError(
+                f"Invalid STATE_BACKEND '{self.state_backend}'. "
+                "Must be 'local' or 'spaces'."
+            )
+        if self.state_backend == "spaces":
+            for var_name, value in [
+                ("SPACES_ACCESS_KEY_ID", self.spaces_access_key_id),
+                ("SPACES_SECRET_ACCESS_KEY", self.spaces_secret_access_key),
+                ("SPACES_BUCKET", self.spaces_bucket),
+            ]:
+                if not value:
+                    missing.append(var_name)
         if missing:
             raise RuntimeError(
                 f"Missing required environment variables: {', '.join(missing)}. "

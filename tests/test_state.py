@@ -110,14 +110,20 @@ class TestStatePersistence:
         assert removed == ["c"]
 
     def test_persist_and_load_state_round_trip(self, tmp_path):
-        path = tmp_path / "state.json"
-        state = _make_state("a", "hello", file_id="file-1", article_id=42)
-        persist_state(str(path), state)
+        from dataclasses import dataclass
 
-        loaded = load_state(str(path))
+        @dataclass(frozen=True)
+        class FakeConfig:
+            state_backend: str = "local"
+            state_file_path: str = str(tmp_path / "state.json")
+
+        cfg = FakeConfig()
+        state = _make_state("a", "hello", file_id="file-1", article_id=42)
+        persist_state(cfg, state)
+        loaded = load_state(cfg)
         assert loaded["a"].openai_file_id == "file-1"
         assert loaded["a"].article_id == 42
 
-        with open(path, encoding="utf-8") as f:
+        with open(tmp_path / "state.json", encoding="utf-8") as f:
             raw = json.load(f)
         assert "openai_file_id" in raw["a"]

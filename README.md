@@ -38,7 +38,12 @@ Zendesk API ──▶ Scraper ──▶ data/articles/*.md ──▶ Delta Detec
 | `OPENAI_VECTOR_STORE_ID` | Yes | — | Target Vector Store ID |
 | `ZENDESK_BASE_URL` | No | `https://support.optisigns.com` | Zendesk Help Center base URL |
 | `DATA_DIR` | No | `data/articles` | Directory for Markdown files |
-| `STATE_FILE_PATH` | No | `state.json` | Delta state persistence file |
+| `STATE_FILE_PATH` | No | `state.json` | Local path or Spaces object key (e.g. `optibot/state.json`) |
+| `STATE_BACKEND` | No | `local` | `local` (filesystem) or `spaces` (DO Spaces) |
+| `SPACES_ACCESS_KEY_ID` | When `spaces` | — | Spaces access key |
+| `SPACES_SECRET_ACCESS_KEY` | When `spaces` | — | Spaces secret key |
+| `SPACES_BUCKET` | When `spaces` | — | Bucket name |
+| `SPACES_REGION` | No | `sgp1` | DO region (`sgp1` Singapore recommended for SE Asia) |
 | `MAX_PAGES` | No | `0` (unlimited) | Limit Zendesk pages to fetch (useful for dev) |
 | `MIN_ARTICLES` | No | `0` (no check) | Minimum scraped articles required for success |
 | `FETCH_RETRIES` | No | `3` | Retries per Zendesk API page on transient errors |
@@ -63,19 +68,32 @@ docker run --rm \
 
 The container runs once and exits **0 on full success**, **1 on config/scrape/upload failures**.
 
-> **State persistence:** `state.json` is excluded from the Docker image (`.dockerignore`) so each fresh container starts without prior hashes. Mount a persistent volume for `STATE_FILE_PATH` in production (e.g. DigitalOcean App Platform volume) to enable delta detection across runs and avoid re-uploading all articles.
+> **State persistence on DigitalOcean:** App Platform has no persistent volumes — container filesystem is wiped each run. For production, set `STATE_BACKEND=spaces` and configure Spaces env vars so `state.json` survives across scheduled job runs. Local dev uses `STATE_BACKEND=local` (default).
 
 ## DigitalOcean Deployment
 
 1. Create a **DigitalOcean App Platform** resource.
 2. Select **GitHub** as the source and point to this repository.
-3. Set **Type** to **Background Worker** with command `python main.py`.
+3. Set **Type** to **Scheduled Job** (or Background Worker) with command `python main.py`.
 4. Configure **Environment Variables**:
    - `OPENAI_API_KEY`
    - `OPENAI_VECTOR_STORE_ID`
+   - `STATE_BACKEND=spaces`
+   - `STATE_FILE_PATH=optibot/state.json`
+   - `SPACES_ACCESS_KEY_ID`
+   - `SPACES_SECRET_ACCESS_KEY`
+   - `SPACES_BUCKET`
+   - `SPACES_REGION=sgp1`
+   - `MAX_PAGES=0`
 5. Set **Schedule** to daily (e.g., `0 6 * * *`).
-6. Mount a **persistent volume** at the path used by `STATE_FILE_PATH` (default: `/app/state.json` or project root) so delta detection survives restarts.
-7. Deploy and monitor logs at your DO App Platform dashboard.
+6. Deploy and monitor logs at your DO App Platform dashboard.
+
+### DigitalOcean Spaces setup
+
+1. Create a **Space** in **Singapore (`sgp1`)** — closest DO region to Southeast Asia.
+2. Generate **Spaces access keys** (API → Spaces Keys).
+3. Use the same `sgp1` region for your App Platform app when possible (lower latency).
+4. First run uploads all articles (`added: N`); second run should log `skipped: N`.
 
 ### Deployment Proof
 
@@ -117,6 +135,7 @@ References from a successful scheduled run on App Platform (`sea-turtle-app`, cr
 │   ├── types.py         # Article, ArticleState, DeltaResult
 │   ├── scraper.py       # Zendesk API client + HTML→Markdown
 │   ├── state.py         # Delta detection via SHA256
+│   ├── state_backend.py # Local + DO Spaces state persistence
 │   └── uploader.py      # OpenAI Vector Store upload
 ├── data/articles/       # Generated Markdown files (gitignored)
 └── state.json           # Delta state (gitignored)

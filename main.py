@@ -55,7 +55,7 @@ def main() -> int:
         )
         return 1
 
-    prev_state = load_state(cfg.state_file_path)
+    prev_state = load_state(cfg)
 
     removed_slugs = find_removed_slugs(articles, prev_state)
     if removed_slugs:
@@ -84,7 +84,7 @@ def main() -> int:
         log.info("Nothing to upload — all articles up to date.")
 
     next_state = build_next_state(articles, prev_state, result, sync_result.succeeded)
-    persist_state(cfg.state_file_path, next_state)
+    persist_state(cfg, next_state)
     log.info("State persisted — done.")
 
     if sync_result.failed > 0:

@@ -3,12 +3,9 @@
 from __future__ import annotations
 
 import hashlib
-import json
 import logging
-import os
-import tempfile
-from typing import Any
 
+from src.state_backend import get_state_backend
 from src.types import Article, ArticleState, DeltaResult
 
 log = logging.getLogger("state")
@@ -18,51 +15,12 @@ def compute_sha256(content: str) -> str:
     return hashlib.sha256(content.encode("utf-8")).hexdigest()
 
 
-def load_state(path: str) -> dict[str, ArticleState]:
-    if not os.path.exists(path):
-        return {}
-    with open(path, encoding="utf-8") as f:
-        raw: dict[str, dict[str, Any]] = json.load(f)
-    return {
-        k: ArticleState(
-            slug=v.get("slug", k),
-            sha256=v["sha256"],
-            last_modified=v["last_modified"],
-            article_id=v.get("article_id", 0),
-            openai_file_id=v.get("openai_file_id", ""),
-        )
-        for k, v in raw.items()
-    }
+def load_state(cfg) -> dict[str, ArticleState]:
+    return get_state_backend(cfg).load()
 
 
-def _serialize_state(state: dict[str, ArticleState]) -> dict[str, dict[str, Any]]:
-    return {
-        k: {
-            "slug": v.slug,
-            "sha256": v.sha256,
-            "last_modified": v.last_modified,
-            "article_id": v.article_id,
-            "openai_file_id": v.openai_file_id,
-        }
-        for k, v in state.items()
-    }
-
-
-def persist_state(path: str, state: dict[str, ArticleState]) -> None:
-    """Atomically write state to disk."""
-    serializable = _serialize_state(state)
-    directory = os.path.dirname(path) or "."
-    os.makedirs(directory, exist_ok=True)
-
-    fd, tmp_path = tempfile.mkstemp(dir=directory, suffix=".tmp")
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8") as f:
-            json.dump(serializable, f, indent=2)
-        os.replace(tmp_path, path)
-    except Exception:
-        if os.path.exists(tmp_path):
-            os.unlink(tmp_path)
-        raise
+def persist_state(cfg, state: dict[str, ArticleState]) -> None:
+    get_state_backend(cfg).save(state)
 
 
 def find_removed_slugs(
