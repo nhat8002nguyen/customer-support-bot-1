@@ -9,6 +9,7 @@ import logging
 import sys
 
 from src.config import load_config
+from src.job_log import attach_log_buffer, persist_job_log
 from src.scraper import ScrapeIncompleteError, run_scraper
 from src.state import (
     build_next_state,
@@ -28,13 +29,7 @@ logging.basicConfig(
 log = logging.getLogger("main")
 
 
-def main() -> int:
-    try:
-        cfg = load_config()
-    except RuntimeError as exc:
-        log.error(exc)
-        return 1
-
+def run_job(cfg) -> int:
     try:
         articles = run_scraper(cfg)
     except ScrapeIncompleteError as exc:
@@ -91,6 +86,23 @@ def main() -> int:
         return 1
 
     return 0
+
+
+def main() -> int:
+    log_buffer = attach_log_buffer()
+    cfg = None
+    exit_code = 1
+
+    try:
+        cfg = load_config()
+        exit_code = run_job(cfg)
+    except RuntimeError as exc:
+        log.error(exc)
+
+    if cfg is not None:
+        persist_job_log(cfg, log_buffer.getvalue())
+
+    return exit_code
 
 
 if __name__ == "__main__":

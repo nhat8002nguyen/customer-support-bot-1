@@ -27,7 +27,7 @@ class Config:
         default_factory=lambda: os.environ.get("DATA_DIR", "data/articles")
     )
     state_file_path: str = field(
-        default_factory=lambda: os.environ.get("STATE_FILE_PATH", "state.json")
+        default_factory=lambda: os.environ.get("STATE_FILE_PATH", "optibot/state.json")
     )
     state_backend: str = field(
         default_factory=lambda: os.environ.get("STATE_BACKEND", "local").lower()
@@ -43,6 +43,12 @@ class Config:
     )
     spaces_region: str = field(
         default_factory=lambda: os.environ.get("SPACES_REGION", "sgp1")
+    )
+    job_log_backend: str = field(
+        default_factory=lambda: os.environ.get("JOB_LOG_BACKEND", "off").lower()
+    )
+    job_log_path: str = field(
+        default_factory=lambda: os.environ.get("JOB_LOG_PATH", "optibot/job.log")
     )
     max_pages: int = field(
         default_factory=lambda: int(os.environ.get("MAX_PAGES", "0"))
@@ -68,7 +74,13 @@ class Config:
                 f"Invalid STATE_BACKEND '{self.state_backend}'. "
                 "Must be 'local' or 'spaces'."
             )
-        if self.state_backend == "spaces":
+        if self.job_log_backend not in ("off", "local", "spaces"):
+            raise RuntimeError(
+                f"Invalid JOB_LOG_BACKEND '{self.job_log_backend}'. "
+                "Must be 'off', 'local', or 'spaces'."
+            )
+        needs_spaces = self.state_backend == "spaces" or self.job_log_backend == "spaces"
+        if needs_spaces:
             for var_name, value in [
                 ("SPACES_ACCESS_KEY_ID", self.spaces_access_key_id),
                 ("SPACES_SECRET_ACCESS_KEY", self.spaces_secret_access_key),

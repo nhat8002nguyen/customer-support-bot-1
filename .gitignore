@@ -6,6 +6,7 @@ venv/
 .venv/
 data/articles/
 state.json
+optibot/
 dist/
 *.egg-info/
 .pytest_cache/

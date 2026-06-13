@@ -59,10 +59,10 @@ class SpacesFakeConfig:
 
 
 class TestSpacesStateBackend:
-    @patch("src.state_backend.boto3.client")
-    def test_load_returns_empty_on_missing_key(self, mock_boto_client):
+    @patch("src.state_backend.make_spaces_client")
+    def test_load_returns_empty_on_missing_key(self, mock_make_client):
         mock_client = MagicMock()
-        mock_boto_client.return_value = mock_client
+        mock_make_client.return_value = mock_client
         mock_client.get_object.side_effect = ClientError(
             {"Error": {"Code": "NoSuchKey", "Message": "not found"}},
             "GetObject",
@@ -76,18 +76,19 @@ class TestSpacesStateBackend:
             Key="optibot/state.json",
         )
 
-    @patch("src.state_backend.boto3.client")
-    def test_save_and_load_round_trip(self, mock_boto_client):
+    @patch("src.state_backend.put_text_object")
+    @patch("src.state_backend.make_spaces_client")
+    def test_save_and_load_round_trip(self, mock_make_client, mock_put_text):
         mock_client = MagicMock()
-        mock_boto_client.return_value = mock_client
-        stored: dict[str, bytes] = {}
+        mock_make_client.return_value = mock_client
+        stored: dict[str, str] = {}
 
-        def fake_put_object(**kwargs):
-            stored["body"] = kwargs["Body"]
+        def fake_put_text(cfg, key, body, content_type):
+            stored["body"] = body
 
-        mock_client.put_object.side_effect = fake_put_object
+        mock_put_text.side_effect = fake_put_text
         mock_client.get_object.return_value = {
-            "Body": MagicMock(read=lambda: stored["body"])
+            "Body": MagicMock(read=lambda: stored["body"].encode("utf-8"))
         }
 
         backend = SpacesStateBackend(SpacesFakeConfig())
@@ -96,19 +97,14 @@ class TestSpacesStateBackend:
         loaded = backend.load()
 
         assert loaded["article-a"].openai_file_id == "file-1"
-        mock_client.put_object.assert_called_once()
-        call_kwargs = mock_client.put_object.call_args.kwargs
-        assert call_kwargs["Bucket"] == "my-bucket"
-        assert call_kwargs["Key"] == "optibot/state.json"
-        assert call_kwargs["ContentType"] == "application/json"
+        mock_put_text.assert_called_once()
+        call_args = mock_put_text.call_args
+        assert call_args[0][1] == "optibot/state.json"
+        assert call_args[0][3] == "application/json"
 
-    @patch("src.state_backend.boto3.client")
-    def test_uses_correct_endpoint(self, mock_boto_client):
+    @patch("src.state_backend.make_spaces_client")
+    def test_uses_correct_endpoint(self, mock_make_client):
         SpacesStateBackend(SpacesFakeConfig(spaces_region="sgp1"))
-        mock_boto_client.assert_called_once_with(
-            "s3",
-            endpoint_url="https://sgp1.digitaloceanspaces.com",
-            aws_access_key_id="KEY",
-            aws_secret_access_key="SECRET",
-            region_name="sgp1",
-        )
+        mock_make_client.assert_called_once()
+        cfg = mock_make_client.call_args[0][0]
+        assert cfg.spaces_region == "sgp1"

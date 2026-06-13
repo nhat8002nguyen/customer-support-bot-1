@@ -8,9 +8,9 @@ import os
 import tempfile
 from typing import Any, Protocol
 
-import boto3
 from botocore.exceptions import ClientError
 
+from src.spaces_client import make_spaces_client, put_text_object
 from src.types import ArticleState
 
 log = logging.getLogger("state_backend")
@@ -76,15 +76,10 @@ class LocalStateBackend:
 
 class SpacesStateBackend:
     def __init__(self, cfg) -> None:
+        self._cfg = cfg
         self._bucket = cfg.spaces_bucket
         self._key = cfg.state_file_path
-        self._client = boto3.client(
-            "s3",
-            endpoint_url=f"https://{cfg.spaces_region}.digitaloceanspaces.com",
-            aws_access_key_id=cfg.spaces_access_key_id,
-            aws_secret_access_key=cfg.spaces_secret_access_key,
-            region_name=cfg.spaces_region,
-        )
+        self._client = make_spaces_client(cfg)
 
     def load(self) -> dict[str, ArticleState]:
         try:
@@ -97,14 +92,12 @@ class SpacesStateBackend:
         return deserialize_state(raw)
 
     def save(self, state: dict[str, ArticleState]) -> None:
-        body = json.dumps(serialize_state(state), indent=2).encode("utf-8")
-        self._client.put_object(
-            Bucket=self._bucket,
-            Key=self._key,
-            Body=body,
-            ContentType="application/json",
+        put_text_object(
+            self._cfg,
+            self._key,
+            json.dumps(serialize_state(state), indent=2),
+            "application/json",
         )
-        log.info("State saved to Spaces — s3://%s/%s", self._bucket, self._key)
 
 
 def get_state_backend(cfg) -> StateBackend:

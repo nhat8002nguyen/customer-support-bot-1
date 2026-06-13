@@ -38,12 +38,14 @@ Zendesk API ──▶ Scraper ──▶ data/articles/*.md ──▶ Delta Detec
 | `OPENAI_VECTOR_STORE_ID` | Yes | — | Target Vector Store ID |
 | `ZENDESK_BASE_URL` | No | `https://support.optisigns.com` | Zendesk Help Center base URL |
 | `DATA_DIR` | No | `data/articles` | Directory for Markdown files |
-| `STATE_FILE_PATH` | No | `state.json` | Local path or Spaces object key (e.g. `optibot/state.json`) |
+| `STATE_FILE_PATH` | No | `optibot/state.json` | Local path or Spaces object key |
 | `STATE_BACKEND` | No | `local` | `local` (filesystem) or `spaces` (DO Spaces) |
 | `SPACES_ACCESS_KEY_ID` | When `spaces` | — | Spaces access key |
 | `SPACES_SECRET_ACCESS_KEY` | When `spaces` | — | Spaces secret key |
 | `SPACES_BUCKET` | When `spaces` | — | Bucket name |
 | `SPACES_REGION` | No | `sgp1` | DO region (`sgp1` Singapore recommended for SE Asia) |
+| `JOB_LOG_BACKEND` | No | `off` | `off`, `local`, or `spaces` — where to store latest run log |
+| `JOB_LOG_PATH` | No | `optibot/job.log` | Local file path or Spaces object key |
 | `MAX_PAGES` | No | `0` (unlimited) | Limit Zendesk pages to fetch (useful for dev) |
 | `MIN_ARTICLES` | No | `0` (no check) | Minimum scraped articles required for success |
 | `FETCH_RETRIES` | No | `3` | Retries per Zendesk API page on transient errors |
@@ -84,6 +86,8 @@ The container runs once and exits **0 on full success**, **1 on config/scrape/up
    - `SPACES_SECRET_ACCESS_KEY`
    - `SPACES_BUCKET`
    - `SPACES_REGION=sgp1`
+   - `JOB_LOG_BACKEND=spaces`
+   - `JOB_LOG_PATH=optibot/job.log`
    - `MAX_PAGES=0`
 5. Set **Schedule** to daily (e.g., `0 6 * * *`).
 6. Deploy and monitor logs at your DO App Platform dashboard.
@@ -94,6 +98,17 @@ The container runs once and exits **0 on full success**, **1 on config/scrape/up
 2. Generate **Spaces access keys** (API → Spaces Keys).
 3. Use the same `sgp1` region for your App Platform app when possible (lower latency).
 4. First run uploads all articles (`added: N`); second run should log `skipped: N`.
+
+### Sharing job logs
+
+Each run **replaces** `job.log` in your Space (never appends). To share with others:
+
+1. In the DO Spaces console, open `optibot/job.log` from the latest run.
+2. Or enable **CDN** / **public file listing** on the Space and share the object URL.
+3. Local smoke test:
+   ```bash
+   JOB_LOG_BACKEND=spaces JOB_LOG_PATH=optibot/job-test.log python main.py
+   ```
 
 ### Deployment Proof
 
@@ -136,7 +151,11 @@ References from a successful scheduled run on App Platform (`sea-turtle-app`, cr
 │   ├── scraper.py       # Zendesk API client + HTML→Markdown
 │   ├── state.py         # Delta detection via SHA256
 │   ├── state_backend.py # Local + DO Spaces state persistence
+│   ├── spaces_client.py # Shared DO Spaces S3 client helpers
+│   ├── job_log.py       # Per-run log capture and upload
 │   └── uploader.py      # OpenAI Vector Store upload
 ├── data/articles/       # Generated Markdown files (gitignored)
-└── state.json           # Delta state (gitignored)
+└── optibot/             # State + job log (gitignored when local)
+    ├── state.json       # Delta state
+    └── job.log          # Latest run log (when JOB_LOG_BACKEND=local)
 ```

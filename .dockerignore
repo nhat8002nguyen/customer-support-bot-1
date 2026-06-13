@@ -6,4 +6,5 @@ venv/
 .git/
 .gitignore
 state.json
+optibot/
 .DS_Store
