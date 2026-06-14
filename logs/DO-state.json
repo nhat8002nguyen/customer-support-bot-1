@@ -1,0 +1,842 @@
+{
+  "OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App": {
+    "slug": "OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App",
+    "sha256": "8e984abc9fd9077861c60c1be2962e8bcd348d65fdae8b3df05c2925267db3ec",
+    "last_modified": "2026-06-11T22:24:43Z",
+    "article_id": 52523606879251,
+    "openai_file_id": "file-1Q7JRtpou9KAggRbenupU3"
+  },
+  "Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage": {
+    "slug": "Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage",
+    "sha256": "b289f9db9e5f3009358bdc072081c83aaefd4a56e34cbaf300f3970dce6b4639",
+    "last_modified": "2026-06-11T22:22:00Z",
+    "article_id": 52069065128723,
+    "openai_file_id": "file-PUZN58KZmNBxdZL9DfGBrC"
+  },
+  "ChromeOS-PWA-Instructions": {
+    "slug": "ChromeOS-PWA-Instructions",
+    "sha256": "72cc62179233ef58298c1245b5d92dddc36a0a4ed9a930133ae11a7d64bf2885",
+    "last_modified": "2026-05-05T15:48:27Z",
+    "article_id": 49039295567891,
+    "openai_file_id": "file-SidRufxAzas1AcveXPXizm"
+  },
+  "How-to-Use-the-Google-Ads-Dashboard-App": {
+    "slug": "How-to-Use-the-Google-Ads-Dashboard-App",
+    "sha256": "80febeee9f4725b9d704010cf2860477706eff32f79f34bd7f6ccd8b47d305e9",
+    "last_modified": "2026-02-02T17:54:16Z",
+    "article_id": 48751096814995,
+    "openai_file_id": "file-Hf9cQiEuin5LjtgHC9KZYn"
+  },
+  "How-to-Use-the-Google-Search-Console-App": {
+    "slug": "How-to-Use-the-Google-Search-Console-App",
+    "sha256": "36b8834388a4598241df578801d0c99f68b11888bd7e1ed93c5bfcbc6b4162fc",
+    "last_modified": "2026-02-02T17:56:42Z",
+    "article_id": 48656950622227,
+    "openai_file_id": "file-73L4Q26eDjxBfmb9TRxE93"
+  },
+  "How-to-Use-the-YouTube-Dashboard-App": {
+    "slug": "How-to-Use-the-YouTube-Dashboard-App",
+    "sha256": "89823efaa8772292b45a55638328fdd8b6af42ce3e0e184007a73c3e05641369",
+    "last_modified": "2026-02-02T15:32:55Z",
+    "article_id": 48626115821459,
+    "openai_file_id": "file-QLNZCLxEaKn1Ch7HKa1ToD"
+  },
+  "Operational-Schedule-Troubleshooting": {
+    "slug": "Operational-Schedule-Troubleshooting",
+    "sha256": "737a6bbd56f5d2ef9aa101a40e995ab91db457e62b225761d06979dfc9c27c77",
+    "last_modified": "2026-04-20T21:26:17Z",
+    "article_id": 48241081473043,
+    "openai_file_id": "file-Qex1gsxY9rHzGnQdsXVfmT"
+  },
+  "How-to-Use-the-OptiDev-App": {
+    "slug": "How-to-Use-the-OptiDev-App",
+    "sha256": "b3350ac06757e026ea7fad28aac5196697925ac3fe5dcac0d2dd2ea555d92271",
+    "last_modified": "2026-02-11T23:03:49Z",
+    "article_id": 47616485609491,
+    "openai_file_id": "file-JbygpEFj8rEmsR4U6LcJvT"
+  },
+  "How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions": {
+    "slug": "How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions",
+    "sha256": "1568e0aaa144f5e4d1fe0d10d63c8f84ce8b08e13edf6bf80b76f62caacefde0",
+    "last_modified": "2025-10-17T16:01:18Z",
+    "article_id": 45619214182803,
+    "openai_file_id": "file-QrMZrShoBRfr1kcfV5WJ9N"
+  },
+  "Using-an-Enterprise-Network-802-1x-with-OptiSigns": {
+    "slug": "Using-an-Enterprise-Network-802-1x-with-OptiSigns",
+    "sha256": "8a50e8f85252cf705e4904e7d1dd7110b45b087e3f70c4ef640da025625b8b27",
+    "last_modified": "2026-05-20T18:11:11Z",
+    "article_id": 44890229616403,
+    "openai_file_id": "file-3b6XeiTVjGP3xCisc4WfqD"
+  },
+  "User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations": {
+    "slug": "User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations",
+    "sha256": "be85e0f5d357f95eb5c528997e742c2bc06c891e02d2388af683ab42b174e5a9",
+    "last_modified": "2025-08-28T19:28:55Z",
+    "article_id": 43657735780627,
+    "openai_file_id": "file-AWT4vPRGQp9z2Mt7WFUCkR"
+  },
+  "Getting-Started-with-Designer": {
+    "slug": "Getting-Started-with-Designer",
+    "sha256": "1d23785b2187b5ffa89d17db9067fb850101de1d049556f69272762842714c02",
+    "last_modified": "2025-10-07T17:18:32Z",
+    "article_id": 42087942047379,
+    "openai_file_id": "file-D8AqrehDz1NToVm6GBzdaX"
+  },
+  "Designer-2-0-New-Features": {
+    "slug": "Designer-2-0-New-Features",
+    "sha256": "86a18e46ee7de0497da2b209303ea052d7c5e3bf75ae7276010d4e8a202f9a78",
+    "last_modified": "2026-05-12T14:17:09Z",
+    "article_id": 41432385864595,
+    "openai_file_id": "file-GHeeEnzQQNS51tX37VrWyX"
+  },
+  "OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide": {
+    "slug": "OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide",
+    "sha256": "5175f5b27915ad06fb975f168daea637b9c6972573075fcda548b393a3620cd8",
+    "last_modified": "2026-01-13T21:20:16Z",
+    "article_id": 40736654972563,
+    "openai_file_id": "file-KzxYDbGu9xAmPonNiaippT"
+  },
+  "How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound": {
+    "slug": "How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound",
+    "sha256": "b7ccac2a0836005442a096932036b0cfa9e54f14fa20c22a640634c1c9c4fd05",
+    "last_modified": "2026-04-08T22:33:37Z",
+    "article_id": 40671590645651,
+    "openai_file_id": "file-4sh6Z9sjaRCZPFBwYpn7uG"
+  },
+  "Disk-Encryption": {
+    "slug": "Disk-Encryption",
+    "sha256": "9bb0e340dd9b9e36aa98aa5957360bc754668c24c098e5b795cc86ac1f7d0c66",
+    "last_modified": "2025-09-04T16:19:23Z",
+    "article_id": 40212027797523,
+    "openai_file_id": "file-PfCCeseXZVETH4ueCPyjoG"
+  },
+  "OptiStick-Troubleshooting-Guide": {
+    "slug": "OptiStick-Troubleshooting-Guide",
+    "sha256": "ed96d987158c4955e9d4c16afaf6fbaf504da24494ca67cc180e36c8b7210486",
+    "last_modified": "2025-10-27T16:03:03Z",
+    "article_id": 40147900639891,
+    "openai_file_id": "file-DVtLc8u4KZTksREhCw8zjV"
+  },
+  "Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick": {
+    "slug": "Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick",
+    "sha256": "6af41868f69301b97c660ec73fe6f4cef4ad0a8ce355814e10006aa5a2513518",
+    "last_modified": "2025-09-04T15:25:54Z",
+    "article_id": 39488874989587,
+    "openai_file_id": "file-Ftkqfz2oYYhTnz7NpoPWzh"
+  },
+  "How-to-Use-the-Tableau-App": {
+    "slug": "How-to-Use-the-Tableau-App",
+    "sha256": "0819fed231058249d4beebdb5feb45e2f41c959a127db64eb92faedec756c303",
+    "last_modified": "2026-01-06T22:36:49Z",
+    "article_id": 39250660729747,
+    "openai_file_id": "file-WupEeVasdaFXAJ5o51CGbS"
+  },
+  "Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration": {
+    "slug": "Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration",
+    "sha256": "3de859038bfc80137faaba22424b13756c117849ec50c119f5aa0375991fd53f",
+    "last_modified": "2025-08-28T18:42:06Z",
+    "article_id": 39080869746067,
+    "openai_file_id": "file-Qza9ytG5mtKBSJbSMii7TN"
+  },
+  "Tagging-in-OptiSigns": {
+    "slug": "Tagging-in-OptiSigns",
+    "sha256": "dc281105616005f93c11d08204ff4412141cadc4144a83ea14f063255669315e",
+    "last_modified": "2025-09-09T19:34:07Z",
+    "article_id": 38062664690195,
+    "openai_file_id": "file-2RHhUBZat5LQzsnjLkZqCR"
+  },
+  "Getting-Started-with-an-OptiSigns-Free-Trial": {
+    "slug": "Getting-Started-with-an-OptiSigns-Free-Trial",
+    "sha256": "6bcd8b3fa87b5f0dd82c0cbeb43168f6373430e465d4f1ed200af7615c42d6b1",
+    "last_modified": "2025-09-04T18:44:24Z",
+    "article_id": 37966066335891,
+    "openai_file_id": "file-7XwDFbtnbAYEngrB4P3KQ2"
+  },
+  "How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms": {
+    "slug": "How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms",
+    "sha256": "b544b526329fef42126cd8e753d5d8657e8e90c3a0e52a059e87251da6b2d0b3",
+    "last_modified": "2025-09-04T18:42:32Z",
+    "article_id": 36911639377683,
+    "openai_file_id": "file-BL8Pn723Jn3x7qWuA8uJjV"
+  },
+  "How-to-access-the-Troubleshooting-page-of-the-OptiSigns-Player": {
+    "slug": "How-to-access-the-Troubleshooting-page-of-the-OptiSigns-Player",
+    "sha256": "8374d9988ad8cf496984b2cfaf50253e65980c3c77439ad3418a2e3c121e7720",
+    "last_modified": "2025-09-02T20:08:24Z",
+    "article_id": 36501302096915,
+    "openai_file_id": "file-YHkX3fb4EYHdDyHe1xt3FQ"
+  },
+  "How-to-Using-SEPA-and-iDEAL-for-EUR-Currency-Subscription-Payments": {
+    "slug": "How-to-Using-SEPA-and-iDEAL-for-EUR-Currency-Subscription-Payments",
+    "sha256": "1aeb11ef9bd8c136ebce1af9d620bffaa53aa482687fc5c951fa4cb2b57d13f1",
+    "last_modified": "2025-08-29T16:58:30Z",
+    "article_id": 35749502945555,
+    "openai_file_id": "file-KMAdVe9XWCPan2KvB3YALi"
+  },
+  "How-to-Install-a-Root-Certificate-and-Display-an-Internal-Website-on-Screens": {
+    "slug": "How-to-Install-a-Root-Certificate-and-Display-an-Internal-Website-on-Screens",
+    "sha256": "967af20063eb2754f211f5735f7a77b252bde7f76de2c1b4ebafe023af308628",
+    "last_modified": "2025-09-04T16:54:34Z",
+    "article_id": 35184720136595,
+    "openai_file_id": "file-Wm9mb2HRyJcMWgdnNBhBaw"
+  },
+  "Accepted-Payment-Methods": {
+    "slug": "Accepted-Payment-Methods",
+    "sha256": "386c637fbc8d2746df9761d82ee7d85b4942a3da7b3292c1e02bc0e764a758fe",
+    "last_modified": "2025-09-04T15:39:32Z",
+    "article_id": 34379983350163,
+    "openai_file_id": "file-TihVovuVe4j43RouLe3g6F"
+  },
+  "What-Do-I-Get-With-an-OptiSigns-Free-Plan": {
+    "slug": "What-Do-I-Get-With-an-OptiSigns-Free-Plan",
+    "sha256": "296d01c7ace2126e5393e88ab94604f3e7f074b688ca52be95dbdb2f1f149c46",
+    "last_modified": "2026-03-27T20:38:29Z",
+    "article_id": 33940834613139,
+    "openai_file_id": "file-CEZRf1D5ncmBuVsh3tN9nK"
+  },
+  "Making-a-Video-Wall-with-OptiSigns-Video-Wall-App": {
+    "slug": "Making-a-Video-Wall-with-OptiSigns-Video-Wall-App",
+    "sha256": "e4bb2198b8afa7847ee71910ec7911ef6fe443e3ce4ecbaf900a4ddf03db85d1",
+    "last_modified": "2025-12-11T15:16:23Z",
+    "article_id": 33382537925267,
+    "openai_file_id": "file-Y3zPCZEYhJheJTikCGUd5L"
+  },
+  "How-to-Set-Up-a-Power-BI-Service-Principal-for-Use-in-OptiSigns": {
+    "slug": "How-to-Set-Up-a-Power-BI-Service-Principal-for-Use-in-OptiSigns",
+    "sha256": "a8d12632ca12ba3e80707795f7930e70803d848185075c1245251baa410a455c",
+    "last_modified": "2026-03-17T22:32:17Z",
+    "article_id": 32860569148819,
+    "openai_file_id": "file-8QzpKRRm3PPCN6r9nGyfYR"
+  },
+  "Display-Salesforce-Dashboards-with-MFA-using-Web-Scripting": {
+    "slug": "Display-Salesforce-Dashboards-with-MFA-using-Web-Scripting",
+    "sha256": "95c72a006c0c12d416f37760b153525e0206d0f367737a42551799e2874fe133",
+    "last_modified": "2025-09-02T20:45:08Z",
+    "article_id": 32839794222099,
+    "openai_file_id": "file-4WPNpieeWsMyS4DtuKYTd3"
+  },
+  "How-to-Order-a-Preconfigured-OptiSigns-Android-Player-Device": {
+    "slug": "How-to-Order-a-Preconfigured-OptiSigns-Android-Player-Device",
+    "sha256": "d03ad5a23e75d69ec80958c29ff1716b96db80988fcc5451a0314e69d1a7e691",
+    "last_modified": "2026-06-11T17:48:29Z",
+    "article_id": 31960461758611,
+    "openai_file_id": "file-4Es11joAAHJ8K6tGEYuQWd"
+  },
+  "Integrating-Point-of-Sale-POS-Systems-to-Build-Digital-Menu-Boards-with-OptiSync": {
+    "slug": "Integrating-Point-of-Sale-POS-Systems-to-Build-Digital-Menu-Boards-with-OptiSync",
+    "sha256": "836874b073ab2d509136bcb7ed1d4817149ae6833aaf584282aae2bdd6755635",
+    "last_modified": "2025-09-04T20:31:25Z",
+    "article_id": 31860170199955,
+    "openai_file_id": "file-UKWYi6iyFnGZXetKT5wYmg"
+  },
+  "Configuring-Mass-Deployment-with-Jamf-Pro-MDM-on-Apple-Devices": {
+    "slug": "Configuring-Mass-Deployment-with-Jamf-Pro-MDM-on-Apple-Devices",
+    "sha256": "a1f09fe59aadef468ffab9268ad03386fcccda4f4e775764eaa7c4a935f1d8b5",
+    "last_modified": "2025-08-29T17:04:07Z",
+    "article_id": 31695220475283,
+    "openai_file_id": "file-LV7rpSeGH48N8A139qQiyW"
+  },
+  "Getting-Started-with-Touch-Screen-Kiosks": {
+    "slug": "Getting-Started-with-Touch-Screen-Kiosks",
+    "sha256": "8e6c0eaee2d0b668fabd0cdfed3bc52b91a35659d2edce81d1ef0f090124bca3",
+    "last_modified": "2025-10-29T18:57:43Z",
+    "article_id": 31449657955347,
+    "openai_file_id": "file-U36zfGRnvofFBLA3HCGMHZ"
+  },
+  "How-to-use-Toast-API-data-with-OptiSigns": {
+    "slug": "How-to-use-Toast-API-data-with-OptiSigns",
+    "sha256": "d5fb05940de72032ea93b2a88b339c098ca31f44004ad7e4ff8c906268048bba",
+    "last_modified": "2025-09-02T20:24:12Z",
+    "article_id": 31113088917907,
+    "openai_file_id": "file-VKkMKA6HcgkFtHhKjcAGfZ"
+  },
+  "Enabling-Lock-Down-Mode-on-Touch-Screen-Devices": {
+    "slug": "Enabling-Lock-Down-Mode-on-Touch-Screen-Devices",
+    "sha256": "0eec68cc2b303c0336122ce42e242f879326945716ed815acdfae8a04890611e",
+    "last_modified": "2026-04-21T19:22:05Z",
+    "article_id": 30310366838803,
+    "openai_file_id": "file-BaX31xqW818js7EgWoFDN5"
+  },
+  "How-to-Use-the-Mobile-App-for-Remote-Control": {
+    "slug": "How-to-Use-the-Mobile-App-for-Remote-Control",
+    "sha256": "36b0fc83e415347e27e9d5f8de3611a061108624b69e3193cd2db55d6fbfbebf",
+    "last_modified": "2025-09-04T20:14:54Z",
+    "article_id": 30304278652563,
+    "openai_file_id": "file-Pw2icnxLsdp5Vs7DJa78P8"
+  },
+  "Guide-for-Creating-Content-with-OptiSigns": {
+    "slug": "Guide-for-Creating-Content-with-OptiSigns",
+    "sha256": "dcbb695ead5fdd80030d9b117527206be1071b56b75309ef919f9c71e974ce1f",
+    "last_modified": "2026-05-21T17:52:16Z",
+    "article_id": 29792081890323,
+    "openai_file_id": "file-8aqqbt9yYCweJod3yBgjEq"
+  },
+  "List-of-Supported-Cities-for-Weather-Wall-City-Themes": {
+    "slug": "List-of-Supported-Cities-for-Weather-Wall-City-Themes",
+    "sha256": "bda82c5e2d98e94341d88a60eb80a03b8f2795bc78a2918a744feb1890f23eb7",
+    "last_modified": "2026-04-08T13:41:37Z",
+    "article_id": 29465595849235,
+    "openai_file_id": "file-W39TvfC68CYgxCUwq1U4EJ"
+  },
+  "How-to-Clear-Cache-on-a-BrightSign-Player": {
+    "slug": "How-to-Clear-Cache-on-a-BrightSign-Player",
+    "sha256": "41912b5916ddfa3847fdfd84d94d5622fb39de0387613782d952d35a6673cc09",
+    "last_modified": "2025-08-28T19:03:16Z",
+    "article_id": 29238381023123,
+    "openai_file_id": "file-GMJ12mc2qTLwc83oZ6WNpj"
+  },
+  "How-to-Create-an-Attract-Screen-for-Your-Kiosk": {
+    "slug": "How-to-Create-an-Attract-Screen-for-Your-Kiosk",
+    "sha256": "2d045e611d86e83863732408cc6d301f2b5b4f6e44867cde9e65ef5898d743f4",
+    "last_modified": "2025-09-04T14:01:30Z",
+    "article_id": 29232460955539,
+    "openai_file_id": "file-NDbxh3FmUbGo44g1CFX5P1"
+  },
+  "How-to-Set-Up-Dynamic-Data-Mapping-with-OptiSync": {
+    "slug": "How-to-Set-Up-Dynamic-Data-Mapping-with-OptiSync",
+    "sha256": "18112a0642054274250ca982d9d1736a74905b5626b58b79429f9a301d036405",
+    "last_modified": "2025-09-04T17:54:40Z",
+    "article_id": 29217646663187,
+    "openai_file_id": "file-2AuGiBGEMuMrUk7Xqazzrm"
+  },
+  "How-To-Create-and-Use-Operational-Schedules-HDMI-CEC-RS-232": {
+    "slug": "How-To-Create-and-Use-Operational-Schedules-HDMI-CEC-RS-232",
+    "sha256": "6eabf84aebce1030c67a24e0b20e18532643d822b7c89c2b2a111567a0dbb9bc",
+    "last_modified": "2026-06-02T22:08:42Z",
+    "article_id": 28598173096723,
+    "openai_file_id": "file-LPTYftmCRYSDHVLMCDp8Nk"
+  },
+  "Performance-Stability-issues-on-Android-devices-and-Best-Practices": {
+    "slug": "Performance-Stability-issues-on-Android-devices-and-Best-Practices",
+    "sha256": "961e839f109e3af3405b02ee9176f2a060f4f6fd0f66094484e0a2f8695dfb32",
+    "last_modified": "2025-09-04T16:21:18Z",
+    "article_id": 28427819992979,
+    "openai_file_id": "file-HqEuohRrEe5xcjNPXieMCd"
+  },
+  "Samsung-Tizen-TVs-Troubleshooting-Guide": {
+    "slug": "Samsung-Tizen-TVs-Troubleshooting-Guide",
+    "sha256": "633763ae80bf875d66b2f246eec6f4852343acf8ebf8960e9745e90d9e6e84e1",
+    "last_modified": "2026-01-12T16:10:54Z",
+    "article_id": 28424138317971,
+    "openai_file_id": "file-EZXX9cQrJZiBQtxsNC1BAZ"
+  },
+  "Roku-Troubleshooting-guide": {
+    "slug": "Roku-Troubleshooting-guide",
+    "sha256": "35d6e4cca5655d2206278d4d073e84bdd987a9761408313a0d1c751460f1fe2b",
+    "last_modified": "2025-09-02T20:10:19Z",
+    "article_id": 28421615261971,
+    "openai_file_id": "file-5rS8etwWmqdGWJ1gzg14FT"
+  },
+  "How-to-Create-Use-Playlists": {
+    "slug": "How-to-Create-Use-Playlists",
+    "sha256": "808ba3053c6e16bf0c50df0baf98ce5177658b85207ca549461655467e6178ce",
+    "last_modified": "2026-03-31T21:42:16Z",
+    "article_id": 28295104605843,
+    "openai_file_id": "file-7762svHnVxfUgAeKAKjQ1z"
+  },
+  "How-to-Use-QR-Overlay-App-in-Engage": {
+    "slug": "How-to-Use-QR-Overlay-App-in-Engage",
+    "sha256": "8bcae4006f3fc4c4acba22ca4f58bfa649d708b6dab546762c3809cd1cc24d28",
+    "last_modified": "2025-08-29T20:47:28Z",
+    "article_id": 28140190892307,
+    "openai_file_id": "file-QzYukU6DVWqAFKVx9WnK4b"
+  },
+  "How-to-Change-Close-Nav-Bar-Styler-Preferences": {
+    "slug": "How-to-Change-Close-Nav-Bar-Styler-Preferences",
+    "sha256": "a360e5ab9e05654186c450be05360b34ae0b299a72c54b8f24544f63e722a5d1",
+    "last_modified": "2025-08-28T19:27:02Z",
+    "article_id": 28115946505107,
+    "openai_file_id": "file-RZfAYRoLqqCBrKWyMY6zLe"
+  },
+  "AI-Camera-App-Quick-Start": {
+    "slug": "AI-Camera-App-Quick-Start",
+    "sha256": "9f96048b55c4fb70a715673dc88506a737ae1e18f92da21b0e7094998d945714",
+    "last_modified": "2025-09-09T16:13:26Z",
+    "article_id": 27690296225555,
+    "openai_file_id": "file-33NwXXiSidyYPLQgbpTRak"
+  },
+  "Amazon-TV-FireStick-Troubleshooting-Guide": {
+    "slug": "Amazon-TV-FireStick-Troubleshooting-Guide",
+    "sha256": "e335d93d22cd2596a401138b253529e96dbcad23e58c98e6058796dfcd847702",
+    "last_modified": "2026-04-28T15:36:27Z",
+    "article_id": 27463953562899,
+    "openai_file_id": "file-1wbw3RSeJ1XxiBjiXoHiFj"
+  },
+  "Move-Screens-or-Devices-from-One-Account-to-Another": {
+    "slug": "Move-Screens-or-Devices-from-One-Account-to-Another",
+    "sha256": "14f61c1ccbde1d3964cdcf21158559d6f334f7331af7decff1c9fa7e6213791c",
+    "last_modified": "2025-08-29T17:03:07Z",
+    "article_id": 27458261258387,
+    "openai_file_id": "file-ChbVeCqToiesMJ1pezpWeG"
+  },
+  "How-to-use-iCloud-Calendar-with-OptiSigns": {
+    "slug": "How-to-use-iCloud-Calendar-with-OptiSigns",
+    "sha256": "6d267bb2d7a1d102a083a97a1be334b73d82ea1d6326d25e6c62ec665af05c8a",
+    "last_modified": "2026-03-26T16:45:12Z",
+    "article_id": 27356288211859,
+    "openai_file_id": "file-56pQxjAdhaFD3rnBD3KYaP"
+  },
+  "OptiStick": {
+    "slug": "OptiStick",
+    "sha256": "aedad686daf2982ae71b6f42e00331bdd1ed39c92ab1d67d461f64ce06e49254",
+    "last_modified": "2026-03-30T17:22:38Z",
+    "article_id": 27267311796243,
+    "openai_file_id": "file-DFeM8osbL7E9471avm7Mp6"
+  },
+  "How-to-Lockdown-iPad-Single-App-with-Guided-Accessibility": {
+    "slug": "How-to-Lockdown-iPad-Single-App-with-Guided-Accessibility",
+    "sha256": "dffe66913c608c597179d92bb3e62d245dc59c4a6d081d9bd5ea6521fbd1a0f6",
+    "last_modified": "2026-02-10T16:54:02Z",
+    "article_id": 25273043501587,
+    "openai_file_id": "file-1DTcLd8bXDF1Z7RxJSPE2r"
+  },
+  "How-to-add-a-QR-Code-in-designs-using-OptiSigns-Designer": {
+    "slug": "How-to-add-a-QR-Code-in-designs-using-OptiSigns-Designer",
+    "sha256": "cf6a3f36c5b87502f9452c585e5a508d118ab618c845240f06fae29a5d238d15",
+    "last_modified": "2025-09-04T15:43:33Z",
+    "article_id": 25127398699667,
+    "openai_file_id": "file-TzzbHU5LD3ypq9xvv5Ro3R"
+  },
+  "What-Are-Feeds-and-How-to-Use-It": {
+    "slug": "What-Are-Feeds-and-How-to-Use-It",
+    "sha256": "864e90a00389d9efd1edd30c605939793af09589afa26ecd5ebca9a6f97163cf",
+    "last_modified": "2025-08-28T18:46:57Z",
+    "article_id": 24338756617747,
+    "openai_file_id": "file-7mX15Kn8VN9nXTQTyvMYmE"
+  },
+  "How-to-get-Google-Review-link": {
+    "slug": "How-to-get-Google-Review-link",
+    "sha256": "6f27e4c02036f0bdec2a77e30f1e5676a79919e59b75b476de82480279726c14",
+    "last_modified": "2025-09-04T16:54:55Z",
+    "article_id": 23629657318547,
+    "openai_file_id": "file-PzynEm4PJUbRTh9GZXKgbz"
+  },
+  "How-to-use-Check-in-app-with-SMS-follow-up": {
+    "slug": "How-to-use-Check-in-app-with-SMS-follow-up",
+    "sha256": "54d8a132a1bcd9630d5a469559193215e04c9764a2d1c08e51e7730ba77484fe",
+    "last_modified": "2025-09-04T15:04:03Z",
+    "article_id": 23566927217939,
+    "openai_file_id": "file-SH6Edn5GFHQv5Q429gC4gA"
+  },
+  "Engage-Plan-FAQs": {
+    "slug": "Engage-Plan-FAQs",
+    "sha256": "08a40b403b534ab1d7ea7a4fdd9c31bb77e1c558f56c259dc40f08c1cdc43b56",
+    "last_modified": "2025-09-11T21:23:59Z",
+    "article_id": 23565267463315,
+    "openai_file_id": "file-FW27VBFGyJZoaJpHFXW9NJ"
+  },
+  "How-to-enable-auto-start-on-FireOS-8-devices-like-Amazon-Fire-TV-Stick-4K-Gen-2-2023-model": {
+    "slug": "How-to-enable-auto-start-on-FireOS-8-devices-like-Amazon-Fire-TV-Stick-4K-Gen-2-2023-model",
+    "sha256": "08c3e217cd8480ede20e7de943cde6979f8573a2afeb1343b5b91434be57232c",
+    "last_modified": "2025-09-04T16:18:04Z",
+    "article_id": 23274673797139,
+    "openai_file_id": "file-6z6aaqaeBBYyJciPdC2ipc"
+  },
+  "How-to-setup-AeriCast-Meet-Wireless-Video-Conferencing": {
+    "slug": "How-to-setup-AeriCast-Meet-Wireless-Video-Conferencing",
+    "sha256": "c999a93a42560e1a3b04ce670641031c74b9531069030af232278dbb643493e9",
+    "last_modified": "2025-08-29T16:59:17Z",
+    "article_id": 23030445716883,
+    "openai_file_id": "file-5sxA7c6oAaMwAYpoGJ3mZK"
+  },
+  "How-to-Integrate-API-and-Publish-API-Data-via-OptiSync": {
+    "slug": "How-to-Integrate-API-and-Publish-API-Data-via-OptiSync",
+    "sha256": "400108f42695620e8d64986120d2acc8774130b2d4803b046b5a57487a7b3b94",
+    "last_modified": "2025-09-04T21:00:02Z",
+    "article_id": 22875592994195,
+    "openai_file_id": "file-PCGEo3XaqqBLyR6MtAkZj6"
+  },
+  "Advanced-Playlist-Item-Playback-Control-Campaign-Management": {
+    "slug": "Advanced-Playlist-Item-Playback-Control-Campaign-Management",
+    "sha256": "993fee7748d356d22dd51e858e902e2c665b0cdd9476d5b40d7d2cbada2c0834",
+    "last_modified": "2025-10-10T15:42:34Z",
+    "article_id": 22474034993043,
+    "openai_file_id": "file-PDunW6PRLghdjGjSF6mTRS"
+  },
+  "How-to-Share-Playlist-and-Folder-with-External-Users": {
+    "slug": "How-to-Share-Playlist-and-Folder-with-External-Users",
+    "sha256": "5068a52768d4ccc25c631aa3a9ead922632d31455d26d1b9ccd3e13d6f97dd0b",
+    "last_modified": "2025-08-29T21:03:21Z",
+    "article_id": 21708242980755,
+    "openai_file_id": "file-PXWkekAi27bktzTmzWH3Np"
+  },
+  "How-to-Use-Content-Tags-in-The-Playlist": {
+    "slug": "How-to-Use-Content-Tags-in-The-Playlist",
+    "sha256": "aef23f8d74fb0e8ab5bbb8980b49b3988899a181ba6d13ba9fb41c91832172a1",
+    "last_modified": "2025-09-04T19:48:57Z",
+    "article_id": 20879903340947,
+    "openai_file_id": "file-9TJNt2iSVd9YGyE4zHiipQ"
+  },
+  "Your-Facebook-Page-Doesn-t-Show-in-The-Dropdown-List": {
+    "slug": "Your-Facebook-Page-Doesn-t-Show-in-The-Dropdown-List",
+    "sha256": "fd2366dd33f1a46392c2fc0f1faa8cce709c1833b28cfb8dc9f12b14434ee7a5",
+    "last_modified": "2026-04-30T20:24:48Z",
+    "article_id": 20750060900883,
+    "openai_file_id": "file-7uQbpDx2qH6xF89c8p2TeX"
+  },
+  "How-to-Use-Coordinate-Based-Positioning-and-Sizing-of-Elements-in-OptiSigns-Designer": {
+    "slug": "How-to-Use-Coordinate-Based-Positioning-and-Sizing-of-Elements-in-OptiSigns-Designer",
+    "sha256": "db22b924f729696fe979910e3c281dc6ed9f9bd7e187acd92b3064df53c25b58",
+    "last_modified": "2025-08-28T20:10:45Z",
+    "article_id": 20428606424723,
+    "openai_file_id": "file-L8Tumv74d7ZYP4m9bvgVsE"
+  },
+  "Navigating-Through-OptiSigns-Template-Library": {
+    "slug": "Navigating-Through-OptiSigns-Template-Library",
+    "sha256": "92c0a78619460d0d758625dd94310d7a811fdcc5f5b31efe29f4c5739023d4e3",
+    "last_modified": "2025-09-04T14:39:07Z",
+    "article_id": 20425113117459,
+    "openai_file_id": "file-776LmALMvVwboEp4RohPnE"
+  },
+  "External-Storage-on-OptiSigns-Devices": {
+    "slug": "External-Storage-on-OptiSigns-Devices",
+    "sha256": "1b541d9924df6c28233052b1d6bb0f635e21f50b84de9555e56e00fac77ffe92",
+    "last_modified": "2026-06-05T16:36:27Z",
+    "article_id": 20153471319187,
+    "openai_file_id": "file-VQwJAoTbyePsmyuxiB6fvd"
+  },
+  "How-to-Control-and-Schedule-Playlist-Items": {
+    "slug": "How-to-Control-and-Schedule-Playlist-Items",
+    "sha256": "0ddc8e4175ae6ca5a33990ce83ff6014c1fec7f0297875e2aa436a72fef5133c",
+    "last_modified": "2025-09-04T17:26:34Z",
+    "article_id": 20062273670163,
+    "openai_file_id": "file-YXRZcN5c4eHEGrHs2tn4fJ"
+  },
+  "How-to-use-Secured-Dashboard-App": {
+    "slug": "How-to-use-Secured-Dashboard-App",
+    "sha256": "770f81f4b901dd45e1b8895162aa0d9ee384960ad08ffba75a0bc05b35391b92",
+    "last_modified": "2025-09-02T20:28:00Z",
+    "article_id": 19589190970771,
+    "openai_file_id": "file-E3nrG2BSFf5hzAEp3DGUqK"
+  },
+  "How-to-use-Yammer-app-on-OptiSigns": {
+    "slug": "How-to-use-Yammer-app-on-OptiSigns",
+    "sha256": "564bece8f0484f30f673d77ef744e9b1f5351b5346fb0968602558805c1b8f8b",
+    "last_modified": "2025-09-04T18:49:13Z",
+    "article_id": 19171222981523,
+    "openai_file_id": "file-Lmfuqf531UG2VXbMAkgnmg"
+  },
+  "Push-Contents-to-your-Screens": {
+    "slug": "Push-Contents-to-your-Screens",
+    "sha256": "25ea62abac5dec6a695cd47199c6757254fd17eec8cdc3340e81e3262610f899",
+    "last_modified": "2025-09-04T20:22:58Z",
+    "article_id": 18988049363859,
+    "openai_file_id": "file-Lcu61v6vEHDrYwpegjZ15z"
+  },
+  "OptiSigns-Getting-Started-Guide": {
+    "slug": "OptiSigns-Getting-Started-Guide",
+    "sha256": "4ad901dfe593fc29eb7faa155181973cfc05d446a9b742f9b9d84542b6e30d47",
+    "last_modified": "2026-03-31T21:41:21Z",
+    "article_id": 18823504383891,
+    "openai_file_id": "file-HKS34pLayQSDxKPWqct9Ho"
+  },
+  "How-to-keep-OptiSigns-running-on-Fire-Stick": {
+    "slug": "How-to-keep-OptiSigns-running-on-Fire-Stick",
+    "sha256": "4a0e706137ed7cd81c8ad5b979f90c8fd70b61d55dd9c92456cb63f8bf9092b9",
+    "last_modified": "2025-09-04T15:31:51Z",
+    "article_id": 18470994953363,
+    "openai_file_id": "file-CH8CFSgCqCfkdw6HY8fHrR"
+  },
+  "How-to-Customize-the-Thumbnail-of-Files-Assets-and-Folders": {
+    "slug": "How-to-Customize-the-Thumbnail-of-Files-Assets-and-Folders",
+    "sha256": "c1ed6e0e3a7a9ed2bc7cf095b022f96e246e10bf43f18f7af4af63a332c5dd7f",
+    "last_modified": "2025-09-04T18:20:38Z",
+    "article_id": 18399492388371,
+    "openai_file_id": "file-EJr27AMPMtGXxZxw9ZeSz9"
+  },
+  "How-to-Configure-Multi-Factor-Authentication-with-your-OptiSigns-account": {
+    "slug": "How-to-Configure-Multi-Factor-Authentication-with-your-OptiSigns-account",
+    "sha256": "0b98fb3bde8a33574f382f509ec7bf5a5d333da59d16deaced03178cc9aadc99",
+    "last_modified": "2025-09-04T16:20:40Z",
+    "article_id": 18381542133779,
+    "openai_file_id": "file-VkKHS4KcWnTkrQiXe6PDb7"
+  },
+  "Samsung-Smart-Signage-Platform-SSSP-Supported-Model-List": {
+    "slug": "Samsung-Smart-Signage-Platform-SSSP-Supported-Model-List",
+    "sha256": "af75333b3fddd04be18d733ce61c023cdfd7f31f0c97036c9ace298751ca5820",
+    "last_modified": "2025-09-04T14:36:56Z",
+    "article_id": 17882306279315,
+    "openai_file_id": "file-ViFLWfXkZUj45mj8DGfw42"
+  },
+  "How-to-Create-a-Content-Library-Kiosk": {
+    "slug": "How-to-Create-a-Content-Library-Kiosk",
+    "sha256": "2802992b330de81fe252af443782c70dfa3ed3e32ab261644da9859a7cce6877",
+    "last_modified": "2025-08-29T19:38:25Z",
+    "article_id": 17604055961747,
+    "openai_file_id": "file-Cjm8oBbVLoZKgNXKahtKPE"
+  },
+  "Event-logging-and-analytics-for-External-Communication-RS-232": {
+    "slug": "Event-logging-and-analytics-for-External-Communication-RS-232",
+    "sha256": "fe7a95e44ebf9d5843e1742f2d6e67482f99f3e9eecfa9a5988f4fda2f4eb41b",
+    "last_modified": "2025-09-02T19:09:02Z",
+    "article_id": 17342932920211,
+    "openai_file_id": "file-BXSfgk7N2ymxaAAGsjzyAd"
+  },
+  "Display-PowerPoint-Google-Slides-in-whole-screen-when-casting-from-MacBook-Pro": {
+    "slug": "Display-PowerPoint-Google-Slides-in-whole-screen-when-casting-from-MacBook-Pro",
+    "sha256": "8c144801f91617f7fc341cb9c0f7924a460e8c4e749c24dbe1b9d7fa632dab89",
+    "last_modified": "2025-08-29T18:58:05Z",
+    "article_id": 17112492659475,
+    "openai_file_id": "file-AYAgvAC8CJXm5M5t73xymd"
+  },
+  "How-to-use-Streaming-App-with-OptiSigns": {
+    "slug": "How-to-use-Streaming-App-with-OptiSigns",
+    "sha256": "bb750c79fb3fa614243ed0912106cfe11d7d7bab3ad02e451ec02171672cc6d6",
+    "last_modified": "2025-09-02T18:34:54Z",
+    "article_id": 16364134190355,
+    "openai_file_id": "file-5UhT6ND5eJdVov7VqHSJHg"
+  },
+  "Silent-Installation-process-for-OptiSigns-Player-on-Windows": {
+    "slug": "Silent-Installation-process-for-OptiSigns-Player-on-Windows",
+    "sha256": "2d93c93cc483db6d9700b5bb6d887d201cdcbf6ad0a4aa8e95035d321822d63c",
+    "last_modified": "2025-08-29T18:51:22Z",
+    "article_id": 15861880059283,
+    "openai_file_id": "file-45hAMbdChRpL9g7tsez6Xf"
+  },
+  "The-OptiSigns-app-keeps-turning-on-the-TV-screen": {
+    "slug": "The-OptiSigns-app-keeps-turning-on-the-TV-screen",
+    "sha256": "045884b7631e1ab5d172e5c29c789acf466fd918cc5b603d20b56db529a840b2",
+    "last_modified": "2025-09-04T15:11:52Z",
+    "article_id": 15808407287315,
+    "openai_file_id": "file-P4Fdj9P84frSsF7qp3hsA9"
+  },
+  "How-to-Design-Kiosk-Apps-Using-Kiosk-Designer-Pro": {
+    "slug": "How-to-Design-Kiosk-Apps-Using-Kiosk-Designer-Pro",
+    "sha256": "2f46166ff62e05c4d3e0735fb8c36cef0fd978e8a17c2a1e4cccc1e300a14368",
+    "last_modified": "2025-11-05T17:31:50Z",
+    "article_id": 15313086319763,
+    "openai_file_id": "file-4FgAVqESiBC8zH4Yo9BkEY"
+  },
+  "Cannot-find-the-OptiSigns-app-on-Your-Samsung-Smart-TV": {
+    "slug": "Cannot-find-the-OptiSigns-app-on-Your-Samsung-Smart-TV",
+    "sha256": "e1ab86905cfcfaeaa8c292b41c71fa9099b05f7df6c5ee1232947d525e22ec59",
+    "last_modified": "2026-06-11T17:13:11Z",
+    "article_id": 15268811715347,
+    "openai_file_id": "file-XRa32S4XkSsBZheUUy8xwF"
+  },
+  "Build-Integration-Using-OptiSigns-Enterprise-App": {
+    "slug": "Build-Integration-Using-OptiSigns-Enterprise-App",
+    "sha256": "02010d04885a44a04d6fcf78929ce0e53fb82da9e86ff8f7e14341947537b1dd",
+    "last_modified": "2025-08-28T20:24:19Z",
+    "article_id": 13320135306515,
+    "openai_file_id": "file-RSBJT2aZCifczrFpKforsE"
+  },
+  "OptiSigns-IoT-Sensor-Add-on-Quick-Start": {
+    "slug": "OptiSigns-IoT-Sensor-Add-on-Quick-Start",
+    "sha256": "2e9f18c12627b46cd9fc283732d434d714115c94af100dfa1bbc37fef47f03bf",
+    "last_modified": "2025-09-02T18:16:29Z",
+    "article_id": 13097501958291,
+    "openai_file_id": "file-LHAie77nVWFR3tN41JtvHk"
+  },
+  "Show-Hide-downloading-status-on-your-Player": {
+    "slug": "Show-Hide-downloading-status-on-your-Player",
+    "sha256": "12a13fd6492954c97c8829c5a88e22443c7a43bddb871c14bd02096eee7a57a8",
+    "last_modified": "2025-09-04T15:32:11Z",
+    "article_id": 12947300131731,
+    "openai_file_id": "file-1XzD8ossdE9BNqXz4Vto2P"
+  },
+  "What-if-the-OptiSigns-app-does-not-auto-start-on-an-Android-TV": {
+    "slug": "What-if-the-OptiSigns-app-does-not-auto-start-on-an-Android-TV",
+    "sha256": "20827b5aa213e7b881f4de9ac7e44d885f7f6ca9e1a5f62bef87e7718058b01b",
+    "last_modified": "2025-11-19T11:39:39Z",
+    "article_id": 11412877112595,
+    "openai_file_id": "file-GauxXX9Dc4V8cQXK2xsagT"
+  },
+  "How-to-put-Live-TV-on-your-screens-with-OptiSigns": {
+    "slug": "How-to-put-Live-TV-on-your-screens-with-OptiSigns",
+    "sha256": "fb2f2d637db0271d8aea73ba2a5e620efb2e5947b965ee1ea51af3f03a1ebdf0",
+    "last_modified": "2025-09-02T20:01:30Z",
+    "article_id": 10159088954387,
+    "openai_file_id": "file-LGU4KQBJe5VjqstVSSfNQi"
+  },
+  "Data-Residency-and-OptiSigns": {
+    "slug": "Data-Residency-and-OptiSigns",
+    "sha256": "5c6205156494c40cd5a8c11a2ae264ff19fdfd1335ab7587c2c190e384818a8e",
+    "last_modified": "2026-06-05T14:25:01Z",
+    "article_id": 9169378546195,
+    "openai_file_id": "file-1WgxTxTbH8erDqTvyyizjh"
+  },
+  "Using-RS-232-to-Schedule-TV-Power-On-Off-or-other-commands": {
+    "slug": "Using-RS-232-to-Schedule-TV-Power-On-Off-or-other-commands",
+    "sha256": "97d71a2ccd38a0c2c6cdc3f1a474357ec7d0ba44751c9e21694fd2bef96363f3",
+    "last_modified": "2025-09-19T18:38:49Z",
+    "article_id": 9061950942995,
+    "openai_file_id": "file-97u5sDUTS2koQkXfUq23uc"
+  },
+  "How-to-get-the-MAC-Address-on-your-media-player": {
+    "slug": "How-to-get-the-MAC-Address-on-your-media-player",
+    "sha256": "e0e1e15e5600679c3f4530477aa61c0191e67311a69ee20e023a1ebe4d087dfa",
+    "last_modified": "2025-08-29T20:29:34Z",
+    "article_id": 8099928867475,
+    "openai_file_id": "file-6XoUVgovStqp4pFucm6rCd"
+  },
+  "How-to-hide-certain-templates-categories-in-Designers": {
+    "slug": "How-to-hide-certain-templates-categories-in-Designers",
+    "sha256": "cb26b7c43e31d474a515abc318b2fa1ca6cf87bee02cab27088004ef302816dc",
+    "last_modified": "2025-09-05T15:04:32Z",
+    "article_id": 7865572050195,
+    "openai_file_id": "file-Vj8PmNmPMpaBWnGBXr5xBJ"
+  },
+  "Host-your-HTML-JS-or-Create-your-own-Web-App-with-Hosted-Website": {
+    "slug": "Host-your-HTML-JS-or-Create-your-own-Web-App-with-Hosted-Website",
+    "sha256": "219eebb678ec9e28aebdbb91364083af827ae137297683606038005ba07e22a1",
+    "last_modified": "2025-08-29T20:55:40Z",
+    "article_id": 7592123111699,
+    "openai_file_id": "file-T6a4yo42BdG3U9BhpsMQ2n"
+  },
+  "Using-eyedrop-feature-to-select-color-in-Designer-app": {
+    "slug": "Using-eyedrop-feature-to-select-color-in-Designer-app",
+    "sha256": "184309d0c16b3fbbfcfc4c8c1c31c8012f918eeb878c0e36854a70a233162dca",
+    "last_modified": "2025-08-28T20:14:46Z",
+    "article_id": 7589195635219,
+    "openai_file_id": "file-S8ipgi74p99QUpqaoom8p4"
+  },
+  "Apple-TV-player-release-notes-limitations": {
+    "slug": "Apple-TV-player-release-notes-limitations",
+    "sha256": "0192c44116a2fb3329d6b443716a609968458b3e61046c2a6ff41560e8dbefbb",
+    "last_modified": "2025-12-31T22:07:40Z",
+    "article_id": 6605515731603,
+    "openai_file_id": "file-K7U8vkvSEArXRpxYRq7FwW"
+  },
+  "How-to-organize-templates-and-share-across-teams": {
+    "slug": "How-to-organize-templates-and-share-across-teams",
+    "sha256": "bb9063596bc532ab554766afceba8d48b4af0ff6320523bba695b1f3d75c7c56",
+    "last_modified": "2025-08-28T19:56:40Z",
+    "article_id": 4428997257491,
+    "openai_file_id": "file-BydhsS4frpL83xotuFMMG2"
+  },
+  "Manually-control-playlist-playback-with-OptiSigns": {
+    "slug": "Manually-control-playlist-playback-with-OptiSigns",
+    "sha256": "ed7dc646d04f84d476a8b9c13d46ea2b2f87d585a92ff3e87a22ccd46e6e473d",
+    "last_modified": "2025-08-29T18:48:01Z",
+    "article_id": 4416704273811,
+    "openai_file_id": "file-XnqMAujQusZbYZQ69r3d1V"
+  },
+  "How-to-Perform-Mass-Provisioning-with-OptiSigns": {
+    "slug": "How-to-Perform-Mass-Provisioning-with-OptiSigns",
+    "sha256": "c2c608519a2de41e97d7add2d0d1b4cff0cdfebd5d99ff80dee701f00bc3bd10",
+    "last_modified": "2026-04-16T14:17:14Z",
+    "article_id": 4416542923667,
+    "openai_file_id": "file-EKTuSi3iyaDcCmC13z5pCq"
+  },
+  "Introduction": {
+    "slug": "Introduction",
+    "sha256": "a6766bf12ec8e415272bde9049f61f20c3e6bce34f448e747320a46f9c82828c",
+    "last_modified": "2025-09-02T20:25:47Z",
+    "article_id": 4414552808467,
+    "openai_file_id": "file-Hk3sa7tjJGiJsaMjbGSr9w"
+  },
+  "Synchronized-playback-Sync-Play-feature": {
+    "slug": "Synchronized-playback-Sync-Play-feature",
+    "sha256": "f7200573ac78818dabaf1780824c4d7a5f5edb9a6641a7970556ef318c6bdb76",
+    "last_modified": "2026-06-10T19:08:01Z",
+    "article_id": 4412065189267,
+    "openai_file_id": "file-LLFo7HCJBZ3E17xjRQQsiF"
+  },
+  "Clean-install-OptiSigns-on-Raspberry-Pi-Linux": {
+    "slug": "Clean-install-OptiSigns-on-Raspberry-Pi-Linux",
+    "sha256": "cf7f36d6ebba38415671b5a7ba4c18048827a97b083acf06c07f980a95aaabf1",
+    "last_modified": "2025-08-28T20:09:01Z",
+    "article_id": 4411956075027,
+    "openai_file_id": "file-S8tLALGYKAH1sW9HACAnuV"
+  },
+  "How-to-Connect-to-802-1x-Enterprise-WiFi-on-Raspberry-Pi": {
+    "slug": "How-to-Connect-to-802-1x-Enterprise-WiFi-on-Raspberry-Pi",
+    "sha256": "401988308cf396523e1e2dd9c11bff56005b4ee7bcf359405842935f8094c54c",
+    "last_modified": "2025-09-04T15:24:46Z",
+    "article_id": 4411743936147,
+    "openai_file_id": "file-BV8ShVXcxTvTocSMWca45U"
+  },
+  "How-to-Integrate-Bonusly-Digital-Signage-with-Optisigns": {
+    "slug": "How-to-Integrate-Bonusly-Digital-Signage-with-Optisigns",
+    "sha256": "32508ec10cb0db0fb73afa6adf6ba9437f274b540bd1320c5a883d95edb548ee",
+    "last_modified": "2025-08-29T21:49:14Z",
+    "article_id": 4408946045715,
+    "openai_file_id": "file-1CrajMC3ucuK738Rhn2wX5"
+  },
+  "How-to-use-Remote-Command-Execution-Windows-Linux": {
+    "slug": "How-to-use-Remote-Command-Execution-Windows-Linux",
+    "sha256": "cb690e901c085602b07a5851f07444e32b5ab90df5f6c7c667a3c77a06291bf0",
+    "last_modified": "2025-09-05T14:59:20Z",
+    "article_id": 4408658251027,
+    "openai_file_id": "file-9bFCc4fyGFUYh4ezTfmHP4"
+  },
+  "How-to-Use-Weather-Apps-Based-on-Device-Location": {
+    "slug": "How-to-Use-Weather-Apps-Based-on-Device-Location",
+    "sha256": "940af56015871b1a94667fffb459b362224da50f1867ba6c48427938298620ec",
+    "last_modified": "2025-09-04T14:07:59Z",
+    "article_id": 4408052029587,
+    "openai_file_id": "file-1VGtiK8N3QtbHBY29qPamP"
+  },
+  "How-to-set-up-SAML-2-0-with-OptiSigns-and-Google-Workspace": {
+    "slug": "How-to-set-up-SAML-2-0-with-OptiSigns-and-Google-Workspace",
+    "sha256": "bafc1c8e9e2a52622eedabc18652c448e6745d533d563a00d002154b40b2c314",
+    "last_modified": "2025-09-04T15:06:32Z",
+    "article_id": 4407493404307,
+    "openai_file_id": "file-3ktpfizdQTaYawMaRUQ8tJ"
+  },
+  "How-to-set-up-SAML-2-0-with-OptiSigns-and-OneLogin-Shibboleth": {
+    "slug": "How-to-set-up-SAML-2-0-with-OptiSigns-and-OneLogin-Shibboleth",
+    "sha256": "12f4269a13f24844e4caecfc5beea991c6f06c98d6db6bab2c4eb371fc040efc",
+    "last_modified": "2025-09-02T20:38:51Z",
+    "article_id": 4407476403859,
+    "openai_file_id": "file-EGrjtXEjiQkq1zSH8t2uYo"
+  },
+  "How-to-set-up-SAML-2-0-with-OptiSigns-and-OneLogin": {
+    "slug": "How-to-set-up-SAML-2-0-with-OptiSigns-and-OneLogin",
+    "sha256": "400a7a84322b5c3f18dda0f008121c09a334d1676f4ece4dae584a8943864cc3",
+    "last_modified": "2025-09-04T13:48:07Z",
+    "article_id": 4407386819731,
+    "openai_file_id": "file-J3fcwiQ7rpcRVgMft2SXAu"
+  },
+  "How-to-Set-Up-SAML-2-0-with-OptiSigns-and-MS-Entra-ID-formerly-Azure-AD": {
+    "slug": "How-to-Set-Up-SAML-2-0-with-OptiSigns-and-MS-Entra-ID-formerly-Azure-AD",
+    "sha256": "31ec2b3a74734547f5373db4dc28080947fa4080fb5c34bb62f9391077ff28ac",
+    "last_modified": "2026-02-05T20:23:47Z",
+    "article_id": 4407252213395,
+    "openai_file_id": "file-PFb25KLdWcND6oLETYuB9m"
+  },
+  "SAML-Integration-Strategies-Best-Practices": {
+    "slug": "SAML-Integration-Strategies-Best-Practices",
+    "sha256": "20fa207ab18ac17a71840a3de4e849aa5bb5533063cfe2f38367a9a09929a0c2",
+    "last_modified": "2026-02-05T20:22:33Z",
+    "article_id": 4407128433299,
+    "openai_file_id": "file-Pf1UMoHS6qEa4w5jkxyQ21"
+  },
+  "Map-View-Screen-Location-settings": {
+    "slug": "Map-View-Screen-Location-settings",
+    "sha256": "82982dac708ca320bfda4b142ab65f55a53461e912a650a99c5c0119dd93b28c",
+    "last_modified": "2025-08-28T19:29:32Z",
+    "article_id": 4407068788883,
+    "openai_file_id": "file-YRLEQVqECRR9JX2jSXhCu8"
+  },
+  "How-to-unpin-OptiSigns-app-on-your-Managed-Android-Stick-Player": {
+    "slug": "How-to-unpin-OptiSigns-app-on-your-Managed-Android-Stick-Player",
+    "sha256": "9613c75a6239388421d9e75c10cd748011e98092eb328ad371ab73685442038c",
+    "last_modified": "2025-08-29T18:52:14Z",
+    "article_id": 4404827608467,
+    "openai_file_id": "file-NnD9cjHSdVyRY1kyZ7nX4W"
+  },
+  "Add-1-or-multiple-assets-to-many-playlists-at-the-same-time": {
+    "slug": "Add-1-or-multiple-assets-to-many-playlists-at-the-same-time",
+    "sha256": "805181d69d4c46521f7794e8cc8ee67b7a2e35a161b9fd58ce9c1d32fb51301a",
+    "last_modified": "2025-08-28T20:13:04Z",
+    "article_id": 4404616139411,
+    "openai_file_id": "file-NXmku8zEHuf9aPBnuYXzew"
+  },
+  "How-to-set-up-SAML-2-0-with-OptiSigns-and-Okta": {
+    "slug": "How-to-set-up-SAML-2-0-with-OptiSigns-and-Okta",
+    "sha256": "04f483dc70b20c7ce0da5a1bdd69b5ef7d156c3a477e5c2f493eb496018432d3",
+    "last_modified": "2026-06-08T15:02:21Z",
+    "article_id": 4404590815635,
+    "openai_file_id": "file-18jov2nM7xnh83jq7fciLa"
+  },
+  "How-to-Use-OptiSigns-Template-Designer-to-Make-Your-Digital-Signs-in-Minutes": {
+    "slug": "How-to-Use-OptiSigns-Template-Designer-to-Make-Your-Digital-Signs-in-Minutes",
+    "sha256": "ff8dac162b822c696522c759bc93472ca3c354cf3141567542c0c905a752b967",
+    "last_modified": "2026-06-11T13:03:59Z",
+    "article_id": 4404151402899,
+    "openai_file_id": "file-5uk7DHVfdJh612dFn1XRJc"
+  }
+}

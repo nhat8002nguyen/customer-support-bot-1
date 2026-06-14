@@ -118,6 +118,7 @@ References from a successful scheduled run on App Platform (`sea-turtle-app`, cr
 - [Runtime logs — scrape → upload → sync complete](images/DO-job-status-2.png)
 - [Vector Store — uploaded articles (OpenAI dashboard)](images/OpenAI-vector-store.png)
 - [Full job log export](logs/DO-job-log.log)
+- [Full state file export](logs/DO-state.json)
 
 ## OpenAI Assistant Setup
 
