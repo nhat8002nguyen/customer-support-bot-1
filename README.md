@@ -136,7 +136,7 @@ References from a successful scheduled run on App Platform (`sea-turtle-app`, cr
 
 ### Proof
 
-- [Playground answer — "How do I add a YouTube video?"](images/OpenAI-playground-ans.png)
+- [Playground answer — "How do I add a YouTube video?"](images/OpenAI-playground-output.png)
 
 ## Project Structure
 
