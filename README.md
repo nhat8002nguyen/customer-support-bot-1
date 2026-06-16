@@ -112,7 +112,7 @@ Each run **replaces** `job.log` in your Space (never appends). To share with oth
 
 ### Deployment Proof
 
-References from a successful scheduled run on App Platform (`sea-turtle-app`, cron `0 */4 * * *`):
+References from a successful scheduled run on App Platform (`sea-turtle-app`, cron `0 2 * * *`):
 
 - [Job invocation — SUCCESS status](images/DO-job-status-1.png)
 - [Runtime logs — scrape → upload → sync complete](images/DO-job-status-2.png)
