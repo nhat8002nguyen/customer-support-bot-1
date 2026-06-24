@@ -118,7 +118,7 @@ References from a successful scheduled run on App Platform (`sea-turtle-app`, cr
 - [Runtime logs — scrape → upload → sync complete](images/DO-job-status-2.png)
 - [Vector Store — uploaded articles (OpenAI dashboard)](images/OpenAI-vector-store.png)
 - [Latest job log (DO Spaces)](https://sgp1.digitaloceanspaces.com/optibot-mini/optibot/job.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO00ZXNKEBU4RZKC4DB9%2F20260622%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20260622T043957Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d32b0b42439b6f69506337a2630789cbc68dd79756e40b7cedd752962023b36)
-- [Latest state file (DO Spaces)](https://sgp1.digitaloceanspaces.com/optibot-mini/optibot/state.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO00ZXNKEBU4RZKC4DB9%2F20260622%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20260622T044029Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a094cde1acd5ed7ca334bde794a712a5c9e4ecbde445a7857baa949289f549ac)
+- [Latest state file (DO Spaces)](https://sgp1.digitaloceanspaces.com/optibot-mini/optibot/state.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO00ZXNKEBU4RZKC4DB9%2F20260624%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20260624T084548Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0878542e2780d48882d490bcdc8b1ddf283f8c96805de9077193b9f6ccfd3aa4)
 
 ## OpenAI Assistant Setup
 
